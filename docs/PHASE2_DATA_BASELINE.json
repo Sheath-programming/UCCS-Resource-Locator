@@ -1,0 +1,14 @@
+{
+  "capturedAt": "2026-10-31",
+  "baselineCommit": "c107e8740168ae1a34df8d73dcb3fa33670b64bd",
+  "resourceCount": 178,
+  "categoryCount": 13,
+  "sha256": {
+    "dist/data/resources.json": "3e9710631c55e44a009d8b2f1c31afe048583d95a3aa1fe5d5678a44a996100a",
+    "src/at-a-glance.json": "9579559a6e5b4385bce4ef3525a2781f500bf62dc53650a614fd48b4221a0d95",
+    "src/research.json": "d2596be2bb08ff2f1c3eb2625c56b17b899df6db5e9f4683ff2fef63cb87cd47",
+    "src/verified-campus.json": "8d3728699c4ec479adf1b2249a59e530765f508fa55089bc7a321baa07361548",
+    "src/verified-library-tech.json": "c18629c25f51412951a3aa9ed0db4bfa867060c5da088bf2e5fe77a5143af807",
+    "src/verified-wellness-local.json": "f03d6061c327bef675527c2a919cb978955af288ebfaca5c4cf0bd52162f2ce2"
+  }
+}

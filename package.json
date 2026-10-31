@@ -1,0 +1,12 @@
+{
+  "name": "uccs-student-resource-hub",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "description": "Independent UCCS student resource locator prototype",
+  "scripts": {
+    "test": "node scripts/check.mjs && node scripts/check-interface.mjs && node scripts/check-preservation.mjs",
+    "test:interface": "node scripts/check-interface.mjs",
+    "test:preservation": "node scripts/check-preservation.mjs"
+  }
+}

@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {filterResources,searchScore,esc,safeUrl} from '../dist/app.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const data=JSON.parse(fs.readFileSync(path.join(root,'dist/data/resources.json'),'utf8'));
+const resources=data.resources;
+const state={q:'',category:'all',location:'all',cost:'all',appointment:'all',official:false,saved:false,savedIds:new Set()};
+let checks=0;
+function check(name,fn){fn();checks++;console.log(`PASS ${name}`);}
+const get=i=>resources.find(r=>r.sourceIndices.includes(i));
+check('Full directory is available without filters',()=>assert.equal(filterResources(resources,state).length,178));
+check('Every resource has a unique stable id and source provenance',()=>{assert.equal(new Set(resources.map(r=>r.id)).size,resources.length);for(const r of resources){assert.ok(r.name&&r.description&&r.sources.length);assert.ok(data.categories.some(c=>c.id===r.category));assert.ok(r.categories.every(c=>data.categories.some(x=>x.id===c)));}});
+check('All extensive-list entries are represented after deduplication and splitting',()=>{for(const [a,b] of [[24,29],[31,40],[42,58],[60,80],[82,102],[104,116],[118,140],[142,148],[150,162],[164,173],[175,180],[182,186],[188,194]])for(let i=a;i<=b;i++)assert.ok(resources.some(r=>r.sourceIndices.includes(i)),`Missing source paragraph ${i+1}`);});
+check('Exact, partial, punctuation-normalized, and need-based searches work',()=>{assert.ok(searchScore(get(24),'Clyde’s Cupboard')>0);assert.ok(searchScore(get(24),'cupboard')>0);assert.ok(searchScore(get(32),'tutoring')>0);assert.ok(searchScore(get(85),'mental health')>0);assert.ok(searchScore(get(190),'wifi')>0);assert.equal(searchScore(get(25),'pool'),0);});
+check('Search is case insensitive and produces an honest empty result',()=>{assert.ok(filterResources(resources,{...state,q:'CLYDE'}).some(r=>r.id===get(24).id));assert.equal(filterResources(resources,{...state,q:'zzzyyynotarealresource'}).length,0);});
+check('Combined category, campus, and free filters narrow to actual options',()=>{const result=filterResources(resources,{...state,category:'basic',location:'campus',cost:'free'});assert.ok(result.some(r=>r.id===get(24).id));assert.ok(result.every(r=>r.categories.includes('basic')&&r.modes.includes('campus')));assert.ok(!result.some(r=>r.name==='RAD Hostel'));});
+check('Online and off-campus filters have distinct useful results',()=>{assert.ok(filterResources(resources,{...state,location:'online'}).some(r=>r.id===get(85).id));assert.ok(filterResources(resources,{...state,location:'community'}).some(r=>r.name==='Food to Power No Cost Grocery'));assert.ok(!filterResources(resources,{...state,location:'community'}).some(r=>r.id===get(32).id));});
+check('Saved view and access filters compose with other filters',()=>{const id=get(33).id;const result=filterResources(resources,{...state,saved:true,savedIds:new Set([id]),appointment:'required'});assert.deepEqual(result.map(r=>r.id),[id]);assert.equal(filterResources(resources,{...state,saved:true}).length,0);});
+check('Official-link filter excludes unverified links',()=>{const result=filterResources(resources,{...state,official:true});assert.equal(result.length,170);assert.ok(result.every(r=>safeUrl(r.url)));});
+check('Source conflicts are corrected in displayed summaries',()=>{assert.ok(get(25).description.includes('8 items'));assert.ok(get(106).description.includes('closed'));assert.equal(get(107).costType,'paid');assert.ok(get(190).description.includes('21 days'));assert.ok(get(57).cost.includes('one-time'));assert.ok(get(164).eligibility.includes('limited'));});
+check('Checked fields correspond to populated data; map links use checked locations',()=>{for(const r of resources){for(const f of r.verification.fields)assert.ok(r[f],`${r.id}: checked empty field ${f}`);if(r.mapAddress)assert.ok(r.verification.fields.includes('location'));if(r.costType!=='unknown')assert.ok(r.verification.fields.includes('cost'),`${r.id}: cost filter without checked cost`);}});
+check('All supplied outbound URLs have safe protocols',()=>{for(const r of resources)for(const url of [r.url,...r.officialSources.map(s=>s.url),...r.additionalLinks.map(s=>s.url)].filter(Boolean))assert.ok(safeUrl(url),`${r.id}: ${url}`);assert.equal(safeUrl('javascript:alert(1)'), '');assert.equal(safeUrl('data:text/html,hello'), '');assert.equal(esc('<img src=x onerror="bad">'), '&lt;img src=x onerror=&quot;bad&quot;&gt;');});
+check('Core HTML controls, semantic landmarks, and local assets exist',()=>{const html=fs.readFileSync(path.join(root,'dist/index.html'),'utf8');for(const id of ['resource-search','search-form','categories','location-select','cost-select','appointment-select','official-check','resources','resource-dialog','saved-nav','mobile-filter-open'])assert.ok(html.includes(`id="${id}"`));assert.ok(html.includes('role="search"'));assert.ok(html.includes('aria-live="polite"'));assert.ok(html.includes('name="viewport"'));for(const name of ['styles.css','app.js','favicon.svg','README.md'])assert.ok(fs.existsSync(path.join(root,'dist',name)),name);});
+console.log(`\n${checks} directory and functional checks passed. ${resources.length} resources, ${data.categories.length} categories.`);

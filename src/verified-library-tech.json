@@ -1,0 +1,1030 @@
+[
+  {
+    "match": 31,
+    "name": "Kraemer Family Library",
+    "url": "https://kfl.uccs.edu/",
+    "notes": "Current official library homepage confirms core services. Reflection-room details in the supplied research were not independently confirmed.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/",
+        "title": "Kraemer Family Library"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Find study spaces, course reserves, library collections, databases, and research help."
+  },
+  {
+    "match": 42,
+    "name": "Library collections and checkouts",
+    "url": "https://kfl.uccs.edu/services/circulation",
+    "notes": "Borrowing verified. Specific manga, games, DVD, and special-collection inventory changes; confirm item availability in catalog.",
+    "verifiedFields": [
+      "url",
+      "phone",
+      "email",
+      "eligibility"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/services/circulation",
+        "title": "Library collections and checkouts"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "phone": "719-255-3295",
+    "email": "circdesk@uccs.edu",
+    "eligibility": "Borrowing privileges depend on UCCS or community borrower status."
+  },
+  {
+    "match": 43,
+    "name": "Banned Books events",
+    "url": "https://kfl.uccs.edu/spotlight/join-us-banned-books-month-library",
+    "notes": "Historical official event page found. Current semester mystery-book packages and repeat schedule were not verified.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/spotlight/join-us-banned-books-month-library",
+        "title": "Banned Books events"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "verified": false
+  },
+  {
+    "match": 44,
+    "name": "Library equipment borrowing",
+    "url": "https://kfl.uccs.edu/equipment-reserves",
+    "notes": "Official equipment article confirms ID and checkout location. Check current inventory and loan periods.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "bring",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/equipment-reserves",
+        "title": "Library equipment borrowing"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Borrow chargers, dry-erase markers, umbrellas and other equipment from Library Assistance.",
+    "bring": "Digital student ID in the UCCS app, or a physical photo ID such as a driver’s license.",
+    "access": "Visit the Library Assistance Desk; availability varies."
+  },
+  {
+    "match": 45,
+    "name": "Textbook course reserves",
+    "url": "https://kfl.uccs.edu/services/reserves-students",
+    "notes": "Availability and loan rules depend on the course and item; this does not guarantee every textbook is available.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/services/reserves-students",
+        "title": "Textbook course reserves"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Check whether required books or other course materials are available through library reserves."
+  },
+  {
+    "match": 46,
+    "name": "Study room reservations",
+    "url": "https://libcal.uccs.edu/reserve/groupstudy",
+    "notes": "Live reservation page says 30-day booking window, while an older student-services page says 7 days. Use the live booking page; reservations may be canceled if more than 30 minutes late.",
+    "verifiedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://libcal.uccs.edu/reserve/groupstudy",
+        "title": "Study room reservations"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "access": "Reserve your own room at least 24 hours ahead, up to 30 days ahead. Limit: 3 hours per day and 9 hours per week."
+  },
+  {
+    "match": 47,
+    "name": "UCCS University Archives",
+    "url": "https://archives.uccs.edu/",
+    "notes": "Access and appointment requirements vary by collection; consult Archives.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://archives.uccs.edu/",
+        "title": "UCCS University Archives"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Explore university history and archival collections."
+  },
+  {
+    "match": 48,
+    "name": "Library digital exhibits",
+    "url": "https://kfl.uccs.edu/digital-exhibits",
+    "notes": "Official page found. Unlisted access terms and hours still require provider confirmation.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/digital-exhibits",
+        "title": "Library digital exhibits"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Explore online exhibits from the Kraemer Family Library."
+  },
+  {
+    "match": 49,
+    "name": "KFL A–Z databases",
+    "url": "https://libguides.uccs.edu/az/databases",
+    "notes": "Access depends on affiliation and individual database licensing; sign-in may be required.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://libguides.uccs.edu/az/databases",
+        "title": "KFL A–Z databases"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Browse licensed research databases through the library."
+  },
+  {
+    "match": 50,
+    "name": "Academic journals and research databases",
+    "url": "https://libguides.uccs.edu/az/databases",
+    "notes": "Institutional access does not bypass every paywall or include every title. Check coverage or request research assistance.",
+    "verifiedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://libguides.uccs.edu/az/databases",
+        "title": "Academic journals and research databases"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "access": "Use the library’s database links and UCCS sign-in for licensed content."
+  },
+  {
+    "match": 51,
+    "name": "BrowZine",
+    "url": "https://kfl.uccs.edu/browzine-announcement",
+    "notes": "Official page found. Unlisted access terms and hours still require provider confirmation.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/browzine-announcement",
+        "title": "BrowZine"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Find, read and follow scholarly journals available through the library."
+  },
+  {
+    "match": 52,
+    "name": "Prospector",
+    "url": "https://kfl.uccs.edu/services/circulation",
+    "notes": "Official library circulation page links Prospector. Availability and borrowing periods vary.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/services/circulation",
+        "title": "Prospector"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Request eligible materials from partner libraries through Prospector."
+  },
+  {
+    "match": 53,
+    "name": "New York Times access",
+    "url": "https://kfl.uccs.edu/sign-free-new-york-times-account",
+    "notes": "Register using the instructions on the library page; ongoing eligibility terms apply.",
+    "verifiedFields": [
+      "url",
+      "eligibility",
+      "cost"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/sign-free-new-york-times-account",
+        "title": "New York Times access"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "eligibility": "Current UCCS students, faculty and staff.",
+    "cost": "Free All Digital Access account through the library.",
+    "costType": "free"
+  },
+  {
+    "match": 54,
+    "name": "Author talks and book events",
+    "url": "https://kfl.uccs.edu/",
+    "notes": "Official library homepage is a starting point. No current recurring author-tabing program or schedule independently verified.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/",
+        "title": "Author talks and book events"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "verified": false
+  },
+  {
+    "match": 55,
+    "name": "Library cards and alumni borrowing",
+    "url": "https://kfl.uccs.edu/services/alumni",
+    "notes": "The source claim of a forever card is oversimplified. Alumni borrowing continues, but most e-books, journals and databases are unavailable off campus to alumni. Selected alumni databases require an active alumni account.",
+    "verifiedFields": [
+      "url",
+      "eligibility",
+      "bring",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/services/alumni",
+        "title": "Library cards and alumni borrowing"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "eligibility": "UCCS alumni may obtain alumni borrowing privileges.",
+    "bring": "UCCS Alumni Membership Card.",
+    "access": "Present alumni membership card at the library Circulation Desk.",
+    "description": "Continue eligible library borrowing after graduation, with different off-campus electronic-resource access."
+  },
+  {
+    "match": 56,
+    "name": "Document scanning",
+    "url": "https://kfl.uccs.edu/services/scanning",
+    "notes": "Current library and PawPrints pages agree emailed scans are free. Copy pricing differs between pages, so use the OIT PawPrints rate table for printing rather than older library copy prices.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "location"
+    ],
+    "sources": [
+      {
+        "url": "https://kfl.uccs.edu/services/scanning",
+        "title": "Document scanning"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Scan-to-email is free.",
+    "location": "Kraemer Family Library.",
+    "costType": "free"
+  },
+  {
+    "match": 57,
+    "name": "Campus computers and PawPrints",
+    "url": "https://oit.uccs.edu/pawprints",
+    "notes": "The $1 credit is an initial new-user credit, not a recurring allowance. OIT lists grayscale simplex $0.10/page, grayscale duplex $0.14/sheet and color simplex $0.30/page; check current table before printing.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "eligibility",
+      "bring",
+      "location"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/pawprints",
+        "title": "Campus computers and PawPrints"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "New users receive a one-time $1 PawPrints credit. Afterward printing is charged to Clyde’s Cash. Scan-to-email is free.",
+    "eligibility": "Current students, faculty and staff; alumni and public patron printing are not supported.",
+    "bring": "UCCS login or Lion OneCard/Mobile ID; Clyde’s Cash after initial credit.",
+    "location": "Kraemer Family Library computer commons and other supported campus labs.",
+    "costType": "mixed",
+    "description": "Use campus computers and the Paw Prints printing, copying, and scanning service."
+  },
+  {
+    "match": 60,
+    "name": "Zoom",
+    "url": "https://oit.uccs.edu/services/messaging-and-collaboration/zoom",
+    "notes": "Use UCCS-domain licensing and account settings; no claim that every Zoom plan or feature is included.",
+    "verifiedFields": [
+      "url",
+      "access",
+      "eligibility"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/services/messaging-and-collaboration/zoom",
+        "title": "Zoom"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "access": "Sign in at uccs-edu.zoom.us using UCCS credentials.",
+    "eligibility": "UCCS students, faculty and staff."
+  },
+  {
+    "match": 61,
+    "name": "Microsoft 365",
+    "url": "https://oit.uccs.edu/software-catalog",
+    "notes": "The source says unlimited access; the official catalog confirms listed apps through university affiliation, not unlimited licenses or lifetime access.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "cost"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/software-catalog",
+        "title": "Microsoft 365"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "UCCS access to Word, Excel, PowerPoint, Outlook, OneNote and OneDrive.",
+    "eligibility": "UCCS students, faculty and staff.",
+    "cost": "Provided by OIT.",
+    "costType": "included"
+  },
+  {
+    "match": 62,
+    "name": "CU ChatGPT Edu",
+    "url": "https://ai.uccs.edu/",
+    "notes": "OIT lists general availability beginning March 31, 2026. Follow the university AI site for account eligibility, setup and use policies.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://ai.uccs.edu/",
+        "title": "CU ChatGPT Edu"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "UCCS guidance and resources for its university ChatGPT service."
+  },
+  {
+    "match": 63,
+    "name": "LinkedIn Learning",
+    "url": "https://www.cu.edu/employee-services/professional-growth-training/training-services/linkedin-learning",
+    "notes": "Certification preparation may be included; certification exam fees are not automatically included.",
+    "verifiedFields": [
+      "url",
+      "eligibility",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cu.edu/employee-services/professional-growth-training/training-services/linkedin-learning",
+        "title": "LinkedIn Learning"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "eligibility": "CU employees and students.",
+    "cost": "No additional cost.",
+    "access": "Access through your campus student portal.",
+    "costType": "free"
+  },
+  {
+    "match": 64,
+    "name": "Coursera through CU",
+    "url": "https://www.cu.edu/employee-services/professional-growth-training/training-services/coursera",
+    "notes": "CU sponsorship covers designated learning programs, not all courses or paid degrees on Coursera.",
+    "verifiedFields": [
+      "url",
+      "eligibility",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cu.edu/employee-services/professional-growth-training/training-services/coursera",
+        "title": "Coursera through CU"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "eligibility": "CU-sponsored non-credit learning programs are available to faculty, staff and degree-seeking students.",
+    "access": "Use the CU-sponsored program through the student portal."
+  },
+  {
+    "match": 65,
+    "name": "Skillsoft Percipio",
+    "url": "https://www.cu.edu/employee-services/career-advancement-learning/learning/percipio",
+    "notes": "Online learning and exam preparation verified. The supplied claim of free technical certifications does not establish that exam vouchers or certification fees are covered.",
+    "verifiedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cu.edu/employee-services/career-advancement-learning/learning/percipio",
+        "title": "Skillsoft Percipio"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "access": "Log in through the student portal.",
+    "description": "Online courses and certification preparation through CU. Exam fees and vouchers are not automatically included."
+  },
+  {
+    "match": 66,
+    "name": "Qualtrics",
+    "url": "https://oit.uccs.edu/services/teaching-and-learning-management/qualtrics",
+    "notes": "Follow university survey and data-use requirements; student eligibility verified.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/services/teaching-and-learning-management/qualtrics",
+        "title": "Qualtrics"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Create and conduct online surveys.",
+    "eligibility": "Currently enrolled UCCS students and active faculty/staff.",
+    "access": "Visit surveyuccs.qualtrics.com and use UCCS credentials."
+  },
+  {
+    "match": 67,
+    "name": "UCCS Virtual Labs",
+    "url": "https://oit.uccs.edu/services/virtual-labs",
+    "notes": "The supplied document promises Adobe Suite access. Available licensed applications vary; official knowledge base warns some licensed software may not yet be available.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/services/virtual-labs",
+        "title": "UCCS Virtual Labs"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Access a cloud-hosted Windows lab desktop remotely.",
+    "eligibility": "UCCS students, faculty and staff who require OIT lab resources.",
+    "access": "Sign in at virtuallabs.uccs.edu using UCCS credentials."
+  },
+  {
+    "match": 68,
+    "name": "SPSS lab access",
+    "url": "https://oit.uccs.edu/services/smart-classrooms-open-labs/spsscomp",
+    "notes": "Official OIT sources describe concurrent-use licensing across the OIT lab image, rather than restricting this resource to graduate sociology students.",
+    "verifiedFields": [
+      "url",
+      "eligibility",
+      "cost"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/services/smart-classrooms-open-labs/spsscomp",
+        "title": "SPSS lab access"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "eligibility": "Current UCCS students, faculty and staff with OIT lab access.",
+    "cost": "Provided on supported OIT lab computers; personal copies can be purchased separately.",
+    "costType": "included",
+    "description": "Statistical analysis software on supported OIT lab computers; personal license terms differ."
+  },
+  {
+    "match": 69,
+    "name": "OIT software catalog",
+    "url": "https://oit.uccs.edu/software-catalog",
+    "notes": "Licensing, fees and access vary by product; do not assume everything in the catalog is free.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/software-catalog",
+        "title": "OIT software catalog"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Check campus-supported software, licensing, eligibility and lab availability."
+  },
+  {
+    "match": 70,
+    "name": "OIT Service Desk",
+    "url": "https://oit.uccs.edu/get-help",
+    "notes": "OIT contact page hours differ from service-page sidebar hours (Monday–Friday 8am–6pm). Contact provider to confirm hours. Device recycling/donation claim was not independently verified.",
+    "verifiedFields": [
+      "url",
+      "phone",
+      "email",
+      "location"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/get-help",
+        "title": "OIT Service Desk"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "phone": "719-255-4357",
+    "email": "oit@uccs.edu",
+    "location": "El Pomar Center, EPC 108.",
+    "hours": "Contact page lists Monday–Thursday, 8am–5pm; confirm before visiting."
+  },
+  {
+    "match": 71,
+    "name": "UCCS Laptop Program",
+    "url": "https://laptop.uccs.edu/",
+    "notes": "Official UCCS 2021 news confirmed a Chromebook loan program, but the current laptop.uccs.edu endpoint was inaccessible during review. Current availability, eligibility and loan terms need verification through OIT.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://laptop.uccs.edu/",
+        "title": "UCCS Laptop Program"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "verified": false
+  },
+  {
+    "match": 72,
+    "name": "UCCS Linux server access",
+    "url": "https://oit.uccs.edu/services",
+    "notes": "Generic OIT services page only. Current universal student SSH access, server address and eligibility were not established. Ask OIT or your academic department; do not use the source as connection instructions.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://oit.uccs.edu/services",
+        "title": "UCCS Linux server access"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "verified": false
+  },
+  {
+    "match": 73,
+    "name": "GitHub Student Developer Pack and Copilot",
+    "url": "https://github.com/education/students",
+    "notes": "Not limited to computer science majors. Partner offers and usage limits vary. GitHub’s current plan is Copilot Student.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/education/students",
+        "title": "GitHub Student Developer Pack and Copilot"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Apply for verified student developer tools and GitHub Copilot Student.",
+    "eligibility": "Students age 13+ enrolled in a degree- or diploma-granting program; GitHub verification required.",
+    "access": "Apply using school-issued email and/or official dated proof of enrollment."
+  },
+  {
+    "match": 74,
+    "name": "JetBrains Student Pack",
+    "url": "https://www.jetbrains.com/academy/student-pack/",
+    "notes": "Educational licenses have use restrictions; review current JetBrains terms.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.jetbrains.com/academy/student-pack/",
+        "title": "JetBrains Student Pack"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Free educational Student Pack after verification.",
+    "access": "Verify student status with an accepted school email, enrollment document or other supported method.",
+    "costType": "free"
+  },
+  {
+    "match": 75,
+    "name": "Azure for Students",
+    "url": "https://azure.microsoft.com/en-us/free/students",
+    "notes": "Azure is not an unlimited free cloud account. Use limits and eligible products apply.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/en-us/free/students",
+        "title": "Azure for Students"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Eligible students receive $100 credit for 12 months plus selected free service amounts; no credit card required.",
+    "access": "Verify student status; annual renewal is available while eligible.",
+    "costType": "free"
+  },
+  {
+    "match": 76,
+    "name": "Figma for Education",
+    "url": "https://www.figma.com/education/",
+    "notes": "This is a provider education offer, not a UCCS-provided campus software license.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.figma.com/education/",
+        "title": "Figma for Education"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Free Education plan for eligible students and educators.",
+    "access": "Verify education status and create an Education team.",
+    "costType": "free"
+  },
+  {
+    "match": 77,
+    "name": "Miro Education",
+    "url": "https://help.miro.com/hc/en-us/articles/360017730473-Education-plan",
+    "notes": "Approval and team limits apply.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://help.miro.com/hc/en-us/articles/360017730473-Education-plan",
+        "title": "Miro Education"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Free Education plan for eligible educational users.",
+    "access": "Apply with education affiliation and supporting documentation as requested.",
+    "costType": "free"
+  },
+  {
+    "match": 78,
+    "name": "Notion for Education",
+    "url": "https://www.notion.com/help/notion-for-education",
+    "notes": "Education plan benefits depend on individual or student-organization eligibility; review current provider terms.",
+    "verifiedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://www.notion.com/help/notion-for-education",
+        "title": "Notion for Education"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "access": "Verify student status with a supported school email; annual re-verification may be required."
+  },
+  {
+    "match": 164,
+    "name": "Mountain Metro student bus passes",
+    "url": "https://pts.uccs.edu/city-bus",
+    "notes": "The supplied claim that every student can obtain a free pass omits availability limits. The official page expressly lists first-come, first-served distribution and limited commuter passes.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "cost",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/city-bus",
+        "title": "Mountain Metro student bus passes"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Request a student pass for unlimited Mountain Metro rides around Colorado Springs.",
+    "cost": "Free passes subject to availability.",
+    "eligibility": "On-campus residents; limited commuter passes first come, first served; hardship or emergency needs through the Dean of Students.",
+    "access": "Off-campus students request via the parking portal. Follow email instructions, verify a RideMMT account and add a mobile barcode or Metro Card.",
+    "costType": "free"
+  },
+  {
+    "match": 165,
+    "name": "Campus shuttle",
+    "url": "https://pts.uccs.edu/campus-shuttle",
+    "notes": "This replaces the source’s approximate 12-hour service claim. Check current semester routes, breaks, weather and closures; no service to Downtown campus, Heller Center or Lot 580.",
+    "verifiedFields": [
+      "url",
+      "hours",
+      "description",
+      "cost"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/campus-shuttle",
+        "title": "Campus shuttle"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Accessible shuttle service between main-campus stops and scheduled Cybersecurity Center trips.",
+    "cost": "Free campus shuttle.",
+    "hours": "Fall 2026: Monday–Friday Aug 24–Dec 18, excluding Sep 7 and Nov 23–27. First main-campus bus 6:40am; last University Hall departure 10:08pm. Daytime departures about every 10–12 minutes, evenings 15–20 minutes.",
+    "costType": "free"
+  },
+  {
+    "match": 166,
+    "name": "UCCS Safe App",
+    "url": "https://police.uccs.edu/services/safe-app",
+    "notes": "Official university safety app verified. Follow official app instructions; app functions require appropriate device permissions.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://police.uccs.edu/services/safe-app",
+        "title": "UCCS Safe App"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Access campus safety alerts, emergency contacts, incident reporting and Friend Walk."
+  },
+  {
+    "match": 167,
+    "name": "Campus safety escorts",
+    "url": "https://police.uccs.edu/prevention-operations/crime-prevention-programs",
+    "notes": "Contact campus police to ask about current escort availability and scope; vehicle escorts are not guaranteed by this review.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://police.uccs.edu/prevention-operations/crime-prevention-programs",
+        "title": "Campus safety escorts"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Campus Police safety programs include escorts and virtual escort options in UCCS Safe."
+  },
+  {
+    "match": 168,
+    "name": "Visitor weekend parking",
+    "url": "https://pts.uccs.edu/visitor-parking",
+    "notes": "Restricted spaces, disabled spaces, fire lanes, roadways, unmarked stalls and timed zones are enforced 24/7/365. Source claim free across all locations was too broad.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "hours",
+      "eligibility"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/visitor-parking",
+        "title": "Visitor weekend parking"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "No permit registration required on weekends, university-closed holidays and semester breaks.",
+    "hours": "Saturdays and Sundays; other listed breaks/holidays.",
+    "eligibility": "Visitors using regular parking spaces."
+  },
+  {
+    "match": 169,
+    "name": "500-series parking",
+    "url": "https://pts.uccs.edu/current-commuter-students",
+    "notes": "Parking is not permit-free simply because the permit costs $0; signed restrictions still apply.",
+    "verifiedFields": [
+      "url",
+      "cost",
+      "access",
+      "eligibility"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/current-commuter-students",
+        "title": "500-series parking"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "cost": "Free 500-series permit.",
+    "eligibility": "Students with a registered vehicle; paid student permits also cover 500-series lots.",
+    "access": "Register vehicle and link license plate to your permit in the parking portal.",
+    "costType": "free"
+  },
+  {
+    "match": 170,
+    "name": "Campus and accessibility maps",
+    "url": "https://pts.uccs.edu/uccs-maps",
+    "notes": "Use current campus map information for accessible routes and entrances; conditions may change.",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/uccs-maps",
+        "title": "Campus and accessibility maps"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Find official campus, parking and transportation maps."
+  },
+  {
+    "match": 171,
+    "name": "Lost and found",
+    "url": "https://pts.uccs.edu/campus-shuttle",
+    "notes": "Official shuttle page identifies the UC Information Desk for found bus items; some items transfer to UCCS Police. Other building-specific drop points from the source were not verified.",
+    "verifiedFields": [
+      "url",
+      "phone",
+      "location"
+    ],
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/campus-shuttle",
+        "title": "Lost and found"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "phone": "719-255-3450",
+    "location": "University Center Information Desk for shuttle-found items."
+  },
+  {
+    "match": 172,
+    "name": "Microwaves on campus",
+    "url": "https://universitycenter.uccs.edu/",
+    "notes": "University Center parent page only. Specific microwave inventory, access and source locations were not independently confirmed; contact the building or department.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://universitycenter.uccs.edu/",
+        "title": "Microwaves on campus"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "verified": false
+  },
+  {
+    "match": 173,
+    "name": "Lion OneCard",
+    "url": "https://liononecard.uccs.edu/new-students",
+    "notes": "Benefits depend on enrollment, account setup, meal plan, fees and access permissions; the card does not make every service free.",
+    "verifiedFields": [
+      "url",
+      "description",
+      "access"
+    ],
+    "sources": [
+      {
+        "url": "https://liononecard.uccs.edu/new-students",
+        "title": "Lion OneCard"
+      }
+    ],
+    "checkedAt": "2026-10-23",
+    "description": "Use your campus ID for eligible residence, dining, printing, recreation, library and event access.",
+    "access": "Follow the official Mobile ID setup guide or contact the Lion OneCard office."
+  },
+  {
+    "match": "Student Beans",
+    "url": "https://www.studentbeans.com/us",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.studentbeans.com/us",
+        "title": "Student Beans"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "UNiDAYS",
+    "url": "https://www.myunidays.com/US/en-US/content/about",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.myunidays.com/US/en-US/content/about",
+        "title": "UNiDAYS"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Amazon student offers",
+    "url": "https://www.aboutamazon.com/news/amazon-prime/how-prime-student-is-helping-college-students-save-big",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/amazon-prime/how-prime-student-is-helping-college-students-save-big",
+        "title": "Amazon student offers"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Spotify Premium Student",
+    "url": "https://www.spotify.com/us/student/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.spotify.com/us/student/",
+        "title": "Spotify Premium Student"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Apple Music Student",
+    "url": "https://www.apple.com/apple-music/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.apple.com/apple-music/",
+        "title": "Apple Music Student"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Headspace student plan",
+    "url": "https://www.headspace.com/studentplan",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://www.headspace.com/studentplan",
+        "title": "Headspace student plan"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "YouTube Premium Student",
+    "url": "https://support.google.com/youtubemusic/answer/9158808",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider page located. Pricing, individual offers, eligibility, and renewal terms vary. These are commercial offers, not university-paid subscriptions.",
+    "sources": [
+      {
+        "url": "https://support.google.com/youtubemusic/answer/9158808",
+        "title": "YouTube Premium Student"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  }
+]

@@ -1,0 +1,1115 @@
+[
+  {
+    "match": 24,
+    "name": "Clyde’s Cupboard",
+    "url": "https://dos.uccs.edu/basic-needs/clydes-cupboard",
+    "notes": "The uploaded at-a-glance sheet reports a 10-item weekly cap; the current official page does not state that cap. Ask pantry staff about current limits and stock.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "hours",
+      "phone",
+      "email",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/basic-needs/clydes-cupboard",
+        "title": "Clyde’s Cupboard official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Free food and toiletries for enrolled UCCS students, without a financial-need test.",
+    "location": "Student Life Office, University Center 102",
+    "hours": "Monday, Wednesday, Friday 10 a.m.–5 p.m.; Tuesday, Thursday 11 a.m.–6 p.m. Check semester closures.",
+    "phone": "719-255-3091",
+    "email": "cupboard@uccs.edu",
+    "cost": "Free",
+    "eligibility": "All enrolled UCCS students; non-need-based",
+    "access": "Visit the main pantry during opening hours.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 25,
+    "name": "Clyde’s Closet",
+    "url": "https://career.uccs.edu/channels/clydes-closet",
+    "notes": "Updated the uploaded seven-item limit to the current official eight-item limit. Clothes do not need to be returned.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "hours",
+      "phone",
+      "email",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://career.uccs.edu/channels/clydes-closet",
+        "title": "Clyde’s Closet official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Free professional clothing for interviews, career fairs, and other occasions; select up to 8 items per semester.",
+    "location": "Career Center, University Center 114",
+    "hours": "Monday–Friday, 8 a.m.–5 p.m.",
+    "phone": "719-255-3340",
+    "email": "careers@uccs.edu",
+    "cost": "Free, up to 8 items each semester",
+    "eligibility": "UCCS students and alumni",
+    "access": "Drop in during office hours; no appointment necessary.",
+    "costType": "free",
+    "appointment": "walk-in",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 26,
+    "name": "Mountain Lion Meals",
+    "url": "https://dos.uccs.edu/basic-needs/clydes-cupboard",
+    "notes": "Up to three meals each week is confirmed; availability is limited, first come first served, during fall and spring. It is not an automatic entitlement.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/basic-needs/clydes-cupboard",
+        "title": "Mountain Lion Meals official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Request up to three free dining-hall meals per week during the fall and spring semesters.",
+    "location": "Roaring Fork or The Lodge dining halls",
+    "phone": "719-255-3091",
+    "email": "cupboard@uccs.edu",
+    "cost": "Free for approved requests",
+    "eligibility": "UCCS students; weekly meal supply is limited",
+    "access": "Complete the Meal Request Form linked from the official page. The page lists Monday noon–2 p.m. request windows during academic semesters.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 27,
+    "name": "Basic Needs Support / Single Stop",
+    "url": "https://dos.uccs.edu/basic-needs/single-stop",
+    "notes": "Other eligibility and documentation depend on the benefit or provider; do not imply the screener guarantees assistance.",
+    "verifiedFields": [
+      "description",
+      "access",
+      "email",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/basic-needs/single-stop",
+        "title": "Basic Needs Support / Single Stop official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Screen for benefits and connect with campus and community basic-needs support.",
+    "access": "Complete the Single Stop Benefits Screener; the Basic Needs Coordinator follows up. Referral and appointment options are also available.",
+    "email": "dos@uccs.edu",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 28,
+    "name": "Emergency Financial Assistance",
+    "url": "https://dos.uccs.edu/basic-needs/referrals",
+    "notes": "A current universal student emergency grant program, the uploaded $100–$1,000 range, and loan terms were not verified. This link provides the official basic-needs referral route rather than a verified grant application.",
+    "verifiedFields": [
+      "email",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/basic-needs/referrals",
+        "title": "Emergency Financial Assistance official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "email": "dos@uccs.edu",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 29,
+    "name": "MOSAIC Center",
+    "url": "https://mosaic.uccs.edu/",
+    "notes": "The uploaded supply inventory, including personal-care and sexual-health items, was not independently confirmed and may vary.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "hours",
+      "phone",
+      "email",
+      "eligibility",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://mosaic.uccs.edu/",
+        "title": "MOSAIC Center official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Community spaces, multicultural programs, advising, and connections to First2Go, international services, and education abroad.",
+    "location": "University Center 110 and Copper House 9202",
+    "hours": "Staffed Monday–Friday, 8 a.m.–5 p.m.",
+    "phone": "719-255-3319",
+    "email": "MOSAIC@uccs.edu",
+    "eligibility": "All UCCS students may engage with the department",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 32,
+    "name": "Excel Science Center",
+    "url": "https://sciencecenter.uccs.edu/",
+    "notes": "The current official site also confirms games for checkout. Specific snack/event offerings can vary.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "hours",
+      "cost",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://sciencecenter.uccs.edu/",
+        "title": "Excel Science Center official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Science tutoring, study space, class materials, computer access, and study-skills support.",
+    "location": "Centennial Hall 204",
+    "phone": "719-255-3689",
+    "hours": "Fall 2026: Monday–Thursday 8 a.m.–7 p.m.; Friday 8 a.m.–4 p.m.; weekends closed.",
+    "cost": "Free tutoring and coffee",
+    "access": "Drop in and ask a tutor for help.",
+    "costType": "free",
+    "appointment": "walk-in",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 33,
+    "name": "Excel Writing and Communication Center",
+    "url": "https://wcc.uccs.edu/",
+    "notes": "Former Multiliteracy Center name confirmed by an August 2026 UCCS announcement. Another official student subpage still lists 25/50-minute sessions; current homepage lists 30/60. Follow the booking portal.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://wcc.uccs.edu/",
+        "title": "Excel Writing and Communication Center official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "One-to-one help with writing, speeches, resumes, interviews, and communication projects, in person and online.",
+    "location": "Columbine Hall 312 and 316",
+    "phone": "719-255-4770",
+    "email": "wcc@uccs.edu",
+    "hours": "Fall 2026 in person/online: Mon–Tue 9 a.m.–4 p.m.; Wed–Thu 9 a.m.–5 p.m.; Fri 9 a.m.–1 p.m. Additional online-only evenings and Saturday; see schedule.",
+    "access": "Register and schedule through WCOnline linked from the official page. Current homepage describes 30- and 60-minute appointments.",
+    "modes": [
+      "campus",
+      "online"
+    ],
+    "appointment": "required",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 34,
+    "name": "Excel Mathematics Center",
+    "url": "https://mathcenter.uccs.edu/",
+    "notes": "The official location is KFL 211. Subject coverage varies by tutor schedule.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://mathcenter.uccs.edu/",
+        "title": "Excel Mathematics Center official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Drop-in tutoring in math and selected physics, computer science, and statistics courses; Peer-Assisted Study Sessions are also available.",
+    "location": "Kraemer Family Library 211",
+    "phone": "719-255-3687",
+    "email": "mathctr@uccs.edu",
+    "hours": "Fall 2026 (Aug 24–Dec 11): Monday–Thursday 9 a.m.–6:30 p.m.; Friday 9 a.m.–4:30 p.m.; weekends closed.",
+    "access": "Drop into KFL 211 or use the online tutoring options; check subject-specific tutor schedules.",
+    "modes": [
+      "campus",
+      "online"
+    ],
+    "appointment": "walk-in",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 35,
+    "name": "Academic Advising",
+    "url": "https://advising.uccs.edu/",
+    "notes": "Office contact/location varies by advisor; no generic campus footer phone was used as the department contact.",
+    "verifiedFields": [
+      "description",
+      "hours",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://advising.uccs.edu/",
+        "title": "Academic Advising official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Support for academic plans, course selection, transfer credits, degree audits, and graduation progress.",
+    "hours": "Appointments Monday–Friday, 8 a.m.–5 p.m.",
+    "access": "Use Schedule an Appointment on the official page to contact your assigned advisor.",
+    "appointment": "required",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 36,
+    "name": "TRiO Student Support Services",
+    "url": "https://trio.uccs.edu/",
+    "notes": "TRiO does not automatically award a Pell Grant. Pell receipt is an indicator of potential eligibility. The page also contains a general older statement that 2026–27 applications are open; follow its dated application announcement.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "email",
+      "hours",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://trio.uccs.edu/",
+        "title": "TRiO Student Support Services official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Academic planning, guidance, community, and connections to campus resources for eligible undergraduate students.",
+    "location": "Main Hall 316 and 318",
+    "email": "triosss@uccs.edu",
+    "hours": "9 a.m.–5 p.m.; confirm operating days with program staff.",
+    "eligibility": "UCCS undergraduates meeting TRIO first-generation, low-income, or documented-disability criteria may qualify; application required.",
+    "access": "Contact TRiO or follow the official application information. The page states Fall 2026 applications are closed and Spring 2027 applications open November 9, 2026.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 37,
+    "name": "Disability Services",
+    "url": "https://disability.uccs.edu/",
+    "notes": "Eligibility and documentation are evaluated individually; contact the office for temporary medical or pregnancy-related conditions.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "access",
+      "bring",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://disability.uccs.edu/",
+        "title": "Disability Services official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Academic and housing accommodation processes for students with disabilities and other qualifying conditions.",
+    "location": "Main Hall 324, third floor",
+    "phone": "719-255-3354",
+    "email": "dservice@uccs.edu",
+    "hours": "Monday–Friday, 8 a.m.–5 p.m.",
+    "access": "New students complete an accommodation application; returning students renew accommodations in the Student DS Portal.",
+    "bring": "Review the official documentation guidelines and supply applicable documentation through the accommodation process.",
+    "appointment": "required",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 38,
+    "name": "Green Action Fund grants",
+    "url": "https://gaf.uccs.edu/",
+    "notes": "The site is accepting Fall 2026 applications. Award amounts, timelines, and approvals depend on the current grant cycle.",
+    "verifiedFields": [
+      "description",
+      "email",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://gaf.uccs.edu/",
+        "title": "Green Action Fund grants official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Funding for sustainability projects that benefit the UCCS campus.",
+    "email": "st-sus01@uccs.edu",
+    "eligibility": "UCCS students, faculty, and staff may seek funding for qualifying sustainability projects.",
+    "access": "Review the grant funding process and application requirements on the official site.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 39,
+    "name": "Prototyping Machine Shop",
+    "url": "https://eas.uccs.edu/staff/kris-godwin",
+    "notes": "The official engineering staff page verifies the shop location and shop-manager contact. General student access, equipment inventory, pricing, and required safety instruction were not verified; arrange access with the shop manager.",
+    "verifiedFields": [
+      "location",
+      "phone",
+      "email",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://eas.uccs.edu/staff/kris-godwin",
+        "title": "Prototyping Machine Shop official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "location": "Osborne Center for Science and Engineering A-303",
+    "phone": "719-255-3662",
+    "email": "kgodwin2@uccs.edu",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 40,
+    "name": "The Garage",
+    "url": "https://garageatuccs.com/",
+    "notes": "Linked by official UCCS news. A May 2024 official article lists Osborne A-313 and rolling applications; confirm present location and admission process. A May 2026 official article confirms the program remains active.",
+    "verifiedFields": [
+      "description",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://garageatuccs.com/",
+        "title": "The Garage official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "UCCS student startup incubator offering mentorship, peer collaboration, and business development.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 142,
+    "name": "First2Go",
+    "url": "https://first2go.uccs.edu/",
+    "notes": "Specific scholarships are not guaranteed by participation.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://first2go.uccs.edu/",
+        "title": "First2Go official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Connections, individualized support, community, and celebration for first-generation students.",
+    "location": "MOSAIC, University Center 110 and Copper House 9202",
+    "phone": "719-255-3547",
+    "email": "first2go@uccs.edu",
+    "eligibility": "First-generation students: neither parent/guardian earned a bachelor’s degree in the United States, as defined by First2Go.",
+    "access": "Use the registration link, drop into MOSAIC, or email/call for an appointment.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 143,
+    "name": "MOSAIC Mentorship Community",
+    "url": "https://mosaic.uccs.edu/mosaic-mentorship-community",
+    "notes": "Mentors support academic success skills and campus navigation; they are not tutors. Remote/hybrid participation is possible. Registration and two semester meetings apply.",
+    "verifiedFields": [
+      "description",
+      "phone",
+      "email",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://mosaic.uccs.edu/mosaic-mentorship-community",
+        "title": "MOSAIC Mentorship Community official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Peer mentoring, study halls, volunteering, community events, and help navigating college.",
+    "phone": "719-255-3319",
+    "email": "aruiz5@uccs.edu",
+    "cost": "Free",
+    "eligibility": "All UCCS undergraduate students; 60 participants per semester.",
+    "access": "Check the next registration cycle with MOSAIC. Fall 2026 registration ran Aug 24–Sept 13 and is now past.",
+    "costType": "free",
+    "modes": [
+      "campus",
+      "online"
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 144,
+    "name": "Veteran and Military Affairs",
+    "url": "https://military.uccs.edu/about-us",
+    "notes": "Benefit eligibility depends on the specific VA or military education program; contact staff for individual guidance.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://military.uccs.edu/about-us",
+        "title": "Veteran and Military Affairs official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "VA education-benefit support, military-affiliated programs, and connections to campus/community resources.",
+    "location": "McCord-Herbst Student Veteran Center, Gateway Hall, behind Parking and Transportation",
+    "phone": "719-255-3253",
+    "email": "military@uccs.edu",
+    "hours": "Monday–Friday, 8 a.m.–5 p.m.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 145,
+    "name": "Army ROTC",
+    "url": "https://armyrotc.uccs.edu/",
+    "notes": "Scholarships, service commitments, and participation requirements vary. Do not imply tuition payment is automatic; review the official recruitment information.",
+    "verifiedFields": [
+      "description",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://armyrotc.uccs.edu/",
+        "title": "Army ROTC official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Military science education and leadership development through the UCCS Army ROTC program.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 146,
+    "name": "Office of Institutional Equity",
+    "url": "https://equity.uccs.edu/",
+    "notes": "Corrected source abbreviation IOE to official OIE. OIE states that it is not an emergency response office.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://equity.uccs.edu/",
+        "title": "Office of Institutional Equity official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Report sexual misconduct, protected-class discrimination, harassment, and related concerns; obtain supportive-measure information.",
+    "location": "Main Hall 312",
+    "phone": "719-255-4324",
+    "email": "equity@uccs.edu",
+    "access": "Use Report an Incident on the official page or email/call to arrange an appointment.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 147,
+    "name": "Human Resources for student employees",
+    "url": "https://hr.uccs.edu/contact-human-resources",
+    "notes": "The uploaded office-candy detail was not verified.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://hr.uccs.edu/contact-human-resources",
+        "title": "Human Resources for student employees official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Employment questions and workplace support for UCCS employees, including student employees.",
+    "location": "12 Cragmor Village Road, Colorado Springs, CO 80918",
+    "phone": "719-255-3372",
+    "email": "hrhelp@uccs.edu",
+    "hours": "Monday–Friday, 8 a.m.–5 p.m.",
+    "access": "Use the official HR contact form or contact the office.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 148,
+    "name": "Residence Life and Housing support",
+    "url": "https://residence.uccs.edu/amenities",
+    "notes": "The official amenities page confirms residence amenities and first-floor vending machines in most buildings. Vacuum lending, broom lending, and the two-free-lockout claim were not confirmed; ask your residence hall desk.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://residence.uccs.edu/amenities",
+        "title": "Residence Life and Housing support official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 150,
+    "name": "T. Rowe Price Career and Innovation Center",
+    "url": "https://career.uccs.edu/location-and-hours",
+    "notes": "Official services page verifies support from freshman year through graduation and beyond.",
+    "verifiedFields": [
+      "description",
+      "location",
+      "phone",
+      "email",
+      "hours",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://career.uccs.edu/location-and-hours",
+        "title": "T. Rowe Price Career and Innovation Center official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Career exploration, resume/cover-letter reviews, interview preparation, internships, and employer events.",
+    "location": "University Center 114",
+    "phone": "719-255-3340",
+    "email": "careers@uccs.edu",
+    "hours": "Monday–Friday, 8 a.m.–5 p.m.; campus holiday closures apply.",
+    "access": "Schedule an appointment through Slate from the official location/hours page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 151,
+    "name": "Big Interview",
+    "url": "https://www.biginterview.com/",
+    "notes": "Official provider website verified. Current UCCS institutional access, account instructions, and price were not verified; ask the Career Center before subscribing.",
+    "verifiedFields": [
+      "description",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://www.biginterview.com/",
+        "title": "Big Interview official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "description": "Interview practice and preparation tools.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 152,
+    "name": "Handshake jobs and career events",
+    "url": "https://career.uccs.edu/channels/job-internship-search",
+    "notes": "Events and jobs change continuously; check current postings.",
+    "verifiedFields": [
+      "description",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://career.uccs.edu/channels/job-internship-search",
+        "title": "Handshake jobs and career events official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Find internships, jobs, employer connections, and career events through Handshake.",
+    "eligibility": "UCCS students and alumni have access.",
+    "access": "Open UCCS Handshake from the official career page and follow account/sign-in instructions.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 153,
+    "name": "Parker Dewey Micro-Internships",
+    "url": "https://info.parkerdewey.com/student/eas.uccs",
+    "notes": "This verified landing page is branded for UCCS Engineering and Applied Science; provider eligibility is broader. Selection and project availability are not guaranteed.",
+    "verifiedFields": [
+      "description",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://info.parkerdewey.com/student/eas.uccs",
+        "title": "Parker Dewey Micro-Internships official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Short, paid professional projects; many opportunities are remote.",
+    "cost": "Account creation is free",
+    "eligibility": "18 or older; current/recent student of a U.S. higher education institution; appropriate work eligibility applies. International students should confirm eligibility with their institution before applying.",
+    "access": "Create a Parker Dewey account and complete your profile before applying.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 154,
+    "name": "Forage job simulations",
+    "url": "https://business.uccs.edu/resources/career-development-center/students",
+    "notes": "The verified UCCS page specifically describes College of Business access. Broader provider access should be checked directly.",
+    "verifiedFields": [
+      "description",
+      "cost",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://business.uccs.edu/resources/career-development-center/students",
+        "title": "Forage job simulations official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Virtual work simulations to explore roles and practice career skills.",
+    "cost": "Free for UCCS College of Business students, as stated on the college page.",
+    "access": "Follow Forage from the College of Business student resources page.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 155,
+    "name": "CareerFit Colorado",
+    "url": "https://coloradothrives.org/career-fit-colorado/",
+    "notes": "Official Colorado Thrives program page verified; account requirements and pricing were not independently checked.",
+    "verifiedFields": [
+      "description",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://coloradothrives.org/career-fit-colorado/",
+        "title": "CareerFit Colorado official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Career platform connecting Coloradans to living-wage jobs and Colorado employers.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 156,
+    "name": "Career webinars and events",
+    "url": "https://career.uccs.edu/channels/our-services",
+    "notes": "Specific webinar dates and attendance requirements vary by event.",
+    "verifiedFields": [
+      "description",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://career.uccs.edu/channels/our-services",
+        "title": "Career webinars and events official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Career exploration and networking events connecting students with employers and alumni.",
+    "access": "Use the career events link on the official services page for current Handshake listings.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 157,
+    "name": "College career courses and Canvas resources",
+    "url": "https://eas.uccs.edu/career-office",
+    "notes": "This engineering career-office page links an Online Career Resource Center. Uploaded claims of college-specific Canvas modules across most colleges were not comprehensively verified; ask your college career office.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://eas.uccs.edu/career-office",
+        "title": "College career courses and Canvas resources official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 158,
+    "name": "Professional headshot events",
+    "url": "https://career.uccs.edu/",
+    "notes": "Career Center provider page verified. No current recurring headshot service, dates, or pricing was verified; check the event calendar or contact the Career Center.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://career.uccs.edu/",
+        "title": "Professional headshot events official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 159,
+    "name": "Undergraduate Research Academy",
+    "url": "https://ura.uccs.edu/program-overview",
+    "notes": "The published 2026 call allowed up to $4,000 total, with most funding for student pay and up to $1,000 for other costs. Do not present that past deadline or award as an open current application.",
+    "verifiedFields": [
+      "description",
+      "email",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://ura.uccs.edu/program-overview",
+        "title": "Undergraduate Research Academy official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Paid summer research with a faculty mentor and funding for student-faculty projects.",
+    "email": "csr@uccs.edu",
+    "eligibility": "For the published Summer 2026 call: junior or senior standing in summer, identified project and faculty mentor, and required workshops/research expectations.",
+    "access": "The published Summer 2026 deadline was March 31, 2026 and has passed. Contact the Center for Student Research about the next cycle.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 160,
+    "name": "Research travel funding",
+    "url": "https://studentresearch.uccs.edu/undergraduate-student-travel-program",
+    "notes": "Specific claims that SGA/GAF/other departments will cover research travel were not comprehensively verified. This is a confirmed dedicated undergraduate research travel route.",
+    "verifiedFields": [
+      "description",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://studentresearch.uccs.edu/undergraduate-student-travel-program",
+        "title": "Research travel funding official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Support for undergraduates presenting at peer-reviewed conferences; virtual conference costs may also qualify.",
+    "access": "Review the official eligibility guidance and application linked from the Student Research travel page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 161,
+    "name": "Entrepreneurship pitch competitions",
+    "url": "https://garageatuccs.com/",
+    "notes": "The Garage program is confirmed by official 2026 UCCS news, but no current competition dates, eligibility, or prizes were verified. Contact the program for current opportunities.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://garageatuccs.com/",
+        "title": "Entrepreneurship pitch competitions official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 162,
+    "name": "UCCSlead Days of Service",
+    "url": "https://studentlife.uccs.edu/uccslead",
+    "notes": "Official page confirms breakfast in Berger Hall and free shuttles to certain service sites. Projects take 2–4 hours; verify individual event dates and details.",
+    "verifiedFields": [
+      "description",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://studentlife.uccs.edu/uccslead",
+        "title": "UCCSlead Days of Service official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Volunteer service projects with Colorado Springs nonprofit organizations.",
+    "cost": "Free UCCSlead programming",
+    "eligibility": "UCCS students",
+    "access": "Register for a service project using the current event link on the UCCSlead page.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 182,
+    "name": "First-time passport grant",
+    "url": "https://abroad.uccs.edu/get-started/finances/scholarships",
+    "notes": "Official page confirms the grant but does not state a current award amount or guarantee funding.",
+    "verifiedFields": [
+      "description",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://abroad.uccs.edu/get-started/finances/scholarships",
+        "title": "First-time passport grant official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Potential financial support toward a first passport for students applying to a UCCS study abroad program.",
+    "eligibility": "UCCS students applying for a UCCS study abroad program.",
+    "access": "The grant application is embedded in the study-abroad application; award is conditional.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 183,
+    "name": "Education abroad scholarships",
+    "url": "https://abroad.uccs.edu/get-started/finances/scholarships",
+    "notes": "Some listed programs have narrower eligibility; do not imply every UCCS student qualifies for every award.",
+    "verifiedFields": [
+      "description",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://abroad.uccs.edu/get-started/finances/scholarships",
+        "title": "Education abroad scholarships official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "UCCS and external scholarship options to help fund study abroad.",
+    "eligibility": "Varies by major, GPA, location, duration, financial need, and individual award.",
+    "access": "Review each award’s application and deadline from the Education Abroad scholarship page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 184,
+    "name": "UCCSlead",
+    "url": "https://studentlife.uccs.edu/uccslead",
+    "notes": "The current page confirms leadership programming and recognition. General scholarship availability was not verified.",
+    "verifiedFields": [
+      "description",
+      "cost",
+      "eligibility",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://studentlife.uccs.edu/uccslead",
+        "title": "UCCSlead official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Everyday leadership development, Game Changer workshops, and service opportunities.",
+    "cost": "Free",
+    "eligibility": "All UCCS students; Game Changer is open to undergraduate and graduate students.",
+    "access": "Register for current programs through the official page’s Mountain Lion Connect link.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 185,
+    "name": "Clyde’s Five",
+    "url": "https://studentlife.uccs.edu/clydes5",
+    "notes": "Students have their college career to complete the program; individual track requirements apply.",
+    "verifiedFields": [
+      "description",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://studentlife.uccs.edu/clydes5",
+        "title": "Clyde’s Five official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Track involvement across five engagement areas and receive recognition, with a graduation stole upon completion.",
+    "access": "Review the five tracks and participation instructions on the official page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 186,
+    "name": "Undergraduate research poster printing support",
+    "url": "https://studentresearch.uccs.edu/local-conferences-student-research",
+    "notes": "Official conference information page verified. The uploaded free poster-printing promise for Mountain Lion Research Day was not verified; ask the event organizer about current printing support.",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://studentresearch.uccs.edu/local-conferences-student-research",
+        "title": "Undergraduate research poster printing support official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "UCCS CARE Team",
+    "name": "CARE Team",
+    "url": "https://dos.uccs.edu/care/contact",
+    "notes": "CARE is a support/referral resource; emergency situations require emergency services.",
+    "verifiedFields": [
+      "description",
+      "phone",
+      "email",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/care/contact",
+        "title": "CARE Team official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Connect a student experiencing challenges with coordinated university support.",
+    "phone": "719-255-3091",
+    "email": "dos@uccs.edu",
+    "access": "Use the official CARE contact/referral routes; the Dean of Students recommends arranging an appointment.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Dean of Students & Basic Needs Portal",
+    "name": "Office of the Dean of Students",
+    "url": "https://dos.uccs.edu/basic-needs",
+    "notes": "This is the basic-needs provider route, not a guaranteed grant or benefit.",
+    "verifiedFields": [
+      "description",
+      "phone",
+      "email",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://dos.uccs.edu/basic-needs",
+        "title": "Office of the Dean of Students official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Basic-needs navigation, referrals, and connections to campus support.",
+    "phone": "719-255-3091",
+    "email": "dos@uccs.edu",
+    "access": "Use the Basic Needs Support referral page or contact the office to arrange a meeting.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "SGA project & student organization funding",
+    "name": "Student Government Association club funding",
+    "url": "https://sga.uccs.edu/clubfunding",
+    "notes": "Official FAQ states a club may request funding multiple times, up to $4,000 total in a fiscal year. Eligibility and approval requirements apply; this is club funding, not an unrestricted individual student grant.",
+    "verifiedFields": [
+      "description",
+      "access",
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://sga.uccs.edu/clubfunding",
+        "title": "Student Government Association club funding official page"
+      }
+    ],
+    "lastVerified": "2026-10-23",
+    "linkType": "resource",
+    "description": "Budget Advisory Committee funding for qualifying student club activities and travel.",
+    "access": "Follow the Club Funding process and current SGA guidelines; travel must also meet Student Life requirements.",
+    "checkedAt": "2026-10-23"
+  }
+]

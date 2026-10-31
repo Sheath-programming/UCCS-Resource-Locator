@@ -1,0 +1,1482 @@
+[
+  {
+    "match": 82,
+    "url": "https://recwellness.uccs.edu/wellness-center",
+    "verifiedFields": [
+      "url",
+      "description",
+      "phone",
+      "cost"
+    ],
+    "notes": "The official operations page still displays summer hours and a 2025/26 closure calendar. Current semester opening hours need confirmation. Location is described by the source; no precise building address has been verified here.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/wellness-center",
+        "title": "82"
+      }
+    ],
+    "description": "Medical care, counseling, nutrition, and wellness support through the campus Wellness Center.",
+    "phone": "719-255-4444",
+    "location": "Gallogly Recreation and Wellness Center",
+    "cost": "$20 medical office visits; additional lab and medication charges may apply. No insurance billing.",
+    "costType": "paid",
+    "access": "Call to schedule medical or mental health appointments.",
+    "appointment": "required",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 84,
+    "url": "https://recwellness.uccs.edu/mental-health-services/services/psychotherapy",
+    "verifiedFields": [
+      "url",
+      "description",
+      "phone",
+      "access",
+      "cost"
+    ],
+    "notes": "The operations page specifies the semester-based free-session limit. Specialized or long-term treatment may require an outside referral.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/mental-health-services/services/psychotherapy",
+        "title": "84"
+      }
+    ],
+    "description": "Counseling and mental health support for UCCS students.",
+    "phone": "719-255-4444",
+    "access": "Call or visit the Wellness Center to arrange an initial appointment.",
+    "appointment": "required",
+    "cost": "First three mental health visits each semester are free; the Wellness Center FAQ lists $20 for subsequent visits.",
+    "costType": "limited",
+    "additionalLinks": [
+      {
+        "url": "https://recwellness.uccs.edu/wellness-center",
+        "title": "Wellness Center operations & fees"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 85,
+    "url": "https://recwellness.uccs.edu/mental-health-services/24-7-mental-health-resources",
+    "verifiedFields": [
+      "url",
+      "description",
+      "hours",
+      "cost",
+      "eligibility"
+    ],
+    "notes": "App-based student support confirmed. The prototype does not reproduce third-party crisis-line numbers.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/mental-health-services/24-7-mental-health-resources",
+        "title": "85"
+      }
+    ],
+    "description": "Confidential online mental health and wellbeing support through the TELUS Health Student Support app.",
+    "hours": "24/7",
+    "cost": "Free for UCCS students.",
+    "costType": "free",
+    "eligibility": "UCCS students.",
+    "modes": [
+      "online"
+    ],
+    "access": "Download the Student Support app using the links on the university resource page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 86,
+    "url": "https://recwellness.uccs.edu/nutrition-services",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "phone",
+      "access",
+      "eligibility"
+    ],
+    "notes": "The nutrition page confirms three sessions but does not specify a semester-based reset. Do not assume an annual or semester renewal.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/nutrition-services",
+        "title": "86"
+      }
+    ],
+    "description": "Nutrition education and counseling with a registered dietitian.",
+    "cost": "Three free nutrition counseling sessions; ask about any later-session charges.",
+    "costType": "limited",
+    "phone": "719-255-4444",
+    "access": "Call to schedule a dietitian appointment.",
+    "appointment": "required",
+    "eligibility": "UCCS students.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 87,
+    "url": "https://recwellness.uccs.edu/wellness/peer-health-coaching",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "eligibility",
+      "email"
+    ],
+    "notes": "Official coaching page is older; current coach availability and enrollment process should be confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/wellness/peer-health-coaching",
+        "title": "87"
+      }
+    ],
+    "description": "One-to-one support for realistic wellness goals and healthy routines, in person or remotely.",
+    "cost": "Free health coaching.",
+    "costType": "free",
+    "eligibility": "UCCS students, faculty, and staff.",
+    "email": "gburton@uccs.edu",
+    "modes": [
+      "campus",
+      "online"
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 83,
+    "url": "https://farm.uccs.edu/uccs-farm-stand",
+    "verifiedFields": [
+      "url",
+      "description",
+      "hours",
+      "cost",
+      "eligibility",
+      "bring",
+      "location",
+      "phone",
+      "email"
+    ],
+    "notes": "The official Farm Stand page confirms 24/7 access and free produce/eggs when stocked. The source claims about animal interactions, book borrowing, and research projects are not verified by that page.",
+    "sources": [
+      {
+        "url": "https://farm.uccs.edu/uccs-farm-stand",
+        "title": "83"
+      },
+      {
+        "url": "https://farm.uccs.edu/contact-us",
+        "title": "Farm contact & location"
+      }
+    ],
+    "description": "A free farm stand with seasonal produce and eggs, plus a campus farm and greenhouse with learning opportunities.",
+    "hours": "Farm stand: 24/7 at the farmhouse entrance. Greenhouse, animal visits, events, and research access: contact the farm.",
+    "cost": "Farm stand produce is free, subject to stock.",
+    "costType": "free",
+    "eligibility": "Farm stand designed to support UCCS students; no identifying information required.",
+    "bring": "No identifying information required for the farm stand. Requirements for other programs are not listed.",
+    "location": "14 Cragmor Village Road, Colorado Springs, CO",
+    "mapAddress": "14 Cragmor Village Road, Colorado Springs, CO",
+    "phone": "719-255-3904",
+    "email": "growfood@uccs.edu",
+    "additionalLinks": [
+      {
+        "url": "https://farm.uccs.edu/contact-us",
+        "title": "Farm contact & location"
+      },
+      {
+        "url": "https://farm.uccs.edu/calendar",
+        "title": "Farm calendar"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 89,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Official events pages list STI testing clinics. Exact dates, hours, and test availability vary; do not infer a fixed monthly schedule.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "89"
+      }
+    ],
+    "description": "Periodic STI/HIV testing clinics through campus and public-health partners. Confirm the next event and included tests.",
+    "cost": "Research reports free testing events; current clinic terms must be checked.",
+    "additionalLinks": [
+      {
+        "url": "https://news.uccs.edu/2026/02/10/uccs-offering-low-cost-reproductive-and-sexual-health-services-through-el-paso-county-partnership/",
+        "title": "2026 sexual health partnership announcement"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 90,
+    "url": "https://news.uccs.edu/2026/02/10/uccs-offering-low-cost-reproductive-and-sexual-health-services-through-el-paso-county-partnership/",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "This is a February 2026 announcement, not a current clinic booking schedule. Do not assume the past event dates or prices remain available.",
+    "sources": [
+      {
+        "url": "https://news.uccs.edu/2026/02/10/uccs-offering-low-cost-reproductive-and-sexual-health-services-through-el-paso-county-partnership/",
+        "title": "90"
+      }
+    ],
+    "description": "Low- or no-cost reproductive and sexual health services, including long-acting contraceptive options, through a county partnership.",
+    "phone": "719-255-4444",
+    "access": "Contact the Wellness Center for current clinic dates, appointment rules, eligibility, and cost.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 91,
+    "url": "https://campusrec.uccs.edu/fitness/fitness-buddies",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost"
+    ],
+    "notes": "Matching depends on program availability and compatible participants.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/fitness/fitness-buddies",
+        "title": "91"
+      }
+    ],
+    "description": "Get matched with an activity partner to support your fitness goals.",
+    "cost": "Complimentary matching program; confirm current enrollment.",
+    "costType": "free",
+    "access": "Use the Fitness Buddies form linked from the official page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 93,
+    "url": "https://recwellness.uccs.edu/peak-peer-health-educators",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access"
+    ],
+    "notes": "The current page confirms boxes while quantities last. The five named box types and dorm-delivery options in the research were not confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/peak-peer-health-educators",
+        "title": "93"
+      }
+    ],
+    "description": "Request a small wellness box with educational resources and practical supplies.",
+    "eligibility": "Currently enrolled UCCS students; supplies limited.",
+    "access": "Use the PEAK Wellness Box Request Form on the official page.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 96,
+    "url": "https://recwellness.uccs.edu/canine-connections",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "These are therapy-dog events. The research calls the dogs service dogs; the official page identifies them as therapy dogs.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/canine-connections",
+        "title": "96"
+      }
+    ],
+    "description": "Take a stress break with certified therapy dogs visiting campus.",
+    "hours": "See the current event schedule.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 95,
+    "url": "https://residence.uccs.edu/amenities",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "The official amenities page confirms first-floor vending in most residence halls. Specific hygiene products, prices, and La Plata inventory in the source are not verified.",
+    "sources": [
+      {
+        "url": "https://residence.uccs.edu/amenities",
+        "title": "95"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 92,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "92"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 94,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "94"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 97,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "97"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 98,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "98"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 99,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "99"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 100,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "100"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 101,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "101"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 102,
+    "url": "https://recwellness.uccs.edu/events",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/events",
+        "title": "102"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 98,
+    "url": "https://recwellness.uccs.edu/nutrition-services",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Official nutrition services describes cooking classes. Specific menus, room, dates, registration, and fees need confirmation.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/nutrition-services",
+        "title": "98"
+      }
+    ],
+    "description": "Student cooking classes and nutrition programming through the Wellness Center dietitians.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 104,
+    "url": "https://campusrec.uccs.edu/facilities/recreation-center",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "The official facility page describes a 1/13-mile track; the supplied research says 1/11 mile. The distance has been omitted from the summary. Recreation access is generally covered through eligible student fees; confirm your membership.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/facilities/recreation-center",
+        "title": "104"
+      }
+    ],
+    "description": "Campus fitness facilities with strength and cardio equipment, an indoor track, courts, and group studios.",
+    "additionalLinks": [
+      {
+        "url": "https://campusrec.uccs.edu/hours-schedules",
+        "title": "Current facility hours"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 105,
+    "url": "https://campusrec.uccs.edu/hours-schedules",
+    "verifiedFields": [
+      "url",
+      "hours"
+    ],
+    "notes": "Current listed field hours checked. The source track distance was not confirmed.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/hours-schedules",
+        "title": "105"
+      }
+    ],
+    "hours": "Monday–Thursday 6 a.m.–10 p.m.; Friday 6 a.m.–9 p.m.; Saturday 10 a.m.–8 p.m.; Sunday noon–9 p.m. Reservations can make the field unavailable.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 106,
+    "url": "https://campusrec.uccs.edu/aquatics",
+    "verifiedFields": [
+      "url",
+      "description",
+      "hours"
+    ],
+    "notes": "This closure supersedes the uploaded description of an available free pool. No reopening date was found.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/aquatics",
+        "title": "106"
+      }
+    ],
+    "description": "Recreation Center aquatics facilities. The official page currently reports the pool closed for HVAC repairs until further notice.",
+    "hours": "Closed for HVAC repairs until further notice; check the official page for reopening.",
+    "tags": [
+      "Closure notice"
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 107,
+    "url": "https://campusrec.uccs.edu/sole/equipment-rental",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "access"
+    ],
+    "notes": "The supplied research describes outdoor gear as free. The official rental catalog lists charges. General indoor sports checkout may have different rules; ask the Recreation Center.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/sole/equipment-rental",
+        "title": "107"
+      }
+    ],
+    "description": "Rent tents, camping gear, snow-sport equipment, and other outdoor supplies through SOLE.",
+    "cost": "Rental fees vary by item and length. Example listed student/member hammock rental: $4 daily. Late, damage, and loss charges may apply.",
+    "costType": "paid",
+    "access": "Collect and return rentals during SOLE hours; complete the required release form.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 108,
+    "url": "https://campusrec.uccs.edu/sole",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/sole",
+        "title": "108"
+      }
+    ],
+    "linkType": "resource",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 109,
+    "url": "https://campusrec.uccs.edu/sole/climbing-wall",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/sole/climbing-wall",
+        "title": "109"
+      }
+    ],
+    "linkType": "resource",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 110,
+    "url": "https://campusrec.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/",
+        "title": "110"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 111,
+    "url": "https://pts.uccs.edu/uccs-maps",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/uccs-maps",
+        "title": "111"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 112,
+    "url": "https://campusrec.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/",
+        "title": "112"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 113,
+    "url": "https://campusrec.uccs.edu/sole/faqs",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "eligibility",
+      "bring"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/sole/faqs",
+        "title": "113"
+      }
+    ],
+    "linkType": "resource",
+    "description": "Use bike-workshop tools in the SOLE shop; staff-assisted repairs can carry fees.",
+    "cost": "In-shop tool use is free for students and Recreation Center members; extensive staff repairs cost extra.",
+    "costType": "mixed",
+    "eligibility": "UCCS students and Gallogly Recreation Center members.",
+    "bring": "Bring your bike and confirm workshop hours; tools cannot be taken out of the shop.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 114,
+    "url": "https://pts.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/",
+        "title": "114"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 115,
+    "url": "https://pts.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://pts.uccs.edu/",
+        "title": "115"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 116,
+    "url": "https://campusrec.uccs.edu/sole/faqs",
+    "verifiedFields": [
+      "url",
+      "access",
+      "eligibility"
+    ],
+    "notes": "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
+    "sources": [
+      {
+        "url": "https://campusrec.uccs.edu/sole/faqs",
+        "title": "116"
+      }
+    ],
+    "linkType": "resource",
+    "access": "Register at SOLE or through the Recreation Portal; sign in or create a profile.",
+    "eligibility": "Generally UCCS students and members; some public certifications and free clinics have different eligibility.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 118,
+    "url": "https://studentlife.uccs.edu/",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Specific lounge amenities and hours from the student research need confirmation.",
+    "sources": [
+      {
+        "url": "https://studentlife.uccs.edu/",
+        "title": "118"
+      }
+    ],
+    "description": "Connect with student organizations, campus activities, leadership, volunteering, and opportunities to get involved.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 120,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "120"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 121,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "121"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 122,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "122"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 123,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "123"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 124,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "124"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 125,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "125"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 126,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "126"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 127,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "127"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 128,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "128"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 129,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "129"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 131,
+    "url": "https://studentlife.uccs.edu/clydes-kickoff",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://studentlife.uccs.edu/clydes-kickoff",
+        "title": "131"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 132,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "132"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 133,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "133"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 134,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "134"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 136,
+    "url": "https://farm.uccs.edu/calendar",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://farm.uccs.edu/calendar",
+        "title": "136"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 137,
+    "url": "https://farm.uccs.edu/calendar",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://farm.uccs.edu/calendar",
+        "title": "137"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 138,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "138"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 139,
+    "url": "https://biology.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://biology.uccs.edu/",
+        "title": "139"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 140,
+    "url": "https://mlc.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "notes": "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
+    "sources": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "140"
+      }
+    ],
+    "linkType": "provider",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 130,
+    "url": "https://recwellness.uccs.edu/peak-peer-health-educators",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "The official page describes a fall pre-exam event. Check current listings for this year’s date and activities.",
+    "sources": [
+      {
+        "url": "https://recwellness.uccs.edu/peak-peer-health-educators",
+        "title": "130"
+      }
+    ],
+    "description": "A pre-exam campus event with activities to relax, recharge, and connect.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 175,
+    "url": "https://entcenterforthearts.org/tickets/arts-pass",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "eligibility",
+      "bring",
+      "access",
+      "location",
+      "phone",
+      "email",
+      "hours"
+    ],
+    "notes": "The research describes free arts tickets broadly. Benefits vary by program and do not make all Ent Center events free.",
+    "sources": [
+      {
+        "url": "https://entcenterforthearts.org/tickets/arts-pass",
+        "title": "175"
+      }
+    ],
+    "description": "Student Arts Pass benefits for Theatreworks, gallery exhibitions, and other arts programming.",
+    "cost": "One free Theatreworks ticket per UCCS student; other student discounts and GOCA terms vary by event.",
+    "costType": "mixed",
+    "eligibility": "Active UCCS students with a valid student ID.",
+    "bring": "Your student ID or student ID number.",
+    "access": "Contact or visit the box office to reserve eligible tickets.",
+    "location": "5225 N Nevada Avenue, Colorado Springs, CO 80918",
+    "mapAddress": "5225 N Nevada Avenue, Colorado Springs, CO 80918",
+    "phone": "719-255-8181",
+    "email": "tickets@uccs.edu",
+    "hours": "Box office: Monday–Friday 10 a.m.–5 p.m.; Saturday–Sunday noon–6 p.m. Confirm closures.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 176,
+    "url": "https://heller.uccs.edu/",
+    "verifiedFields": [
+      "url",
+      "description",
+      "location"
+    ],
+    "notes": "The official center says events are free and open to the public; registration may apply. Check the current event listing.",
+    "sources": [
+      {
+        "url": "https://heller.uccs.edu/",
+        "title": "176"
+      }
+    ],
+    "description": "Arts and humanities events, exhibitions, and community programs at the Heller Center.",
+    "location": "1250 N Campus Heights Drive, Colorado Springs, CO 80918",
+    "mapAddress": "1250 N Campus Heights Drive, Colorado Springs, CO 80918",
+    "additionalLinks": [
+      {
+        "url": "https://heller.uccs.edu/map-directions",
+        "title": "Heller directions"
+      },
+      {
+        "url": "https://heller.uccs.edu/events",
+        "title": "Heller events"
+      }
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 177,
+    "url": "https://gomountainlions.com/sports/2014/6/30/GEN_0630144621.aspx",
+    "verifiedFields": [
+      "url",
+      "bring",
+      "cost"
+    ],
+    "notes": "Official general athletics page lists student entry with ID as free, also corroborated by a 2026 volleyball event. Postseason and special events can differ; verify the individual event.",
+    "sources": [
+      {
+        "url": "https://gomountainlions.com/sports/2014/6/30/GEN_0630144621.aspx",
+        "title": "177"
+      }
+    ],
+    "bring": "UCCS student ID.",
+    "cost": "General ticket page lists free admission for UCCS students with ID. Check the specific game.",
+    "costType": "mixed",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 178,
+    "url": "https://ppld.org/culturepass",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "eligibility",
+      "bring",
+      "access"
+    ],
+    "notes": "A reservation is required; a library card alone does not guarantee admission.",
+    "sources": [
+      {
+        "url": "https://ppld.org/culturepass",
+        "title": "178"
+      }
+    ],
+    "description": "Reserve library passes for no-cost admission to participating local museums and attractions.",
+    "cost": "Participating Culture Pass admission is free; party size varies by venue.",
+    "costType": "free",
+    "eligibility": "Age 12+ with a valid PPLD 400-series card in good standing.",
+    "bring": "Printed pass confirmation for the reserved date.",
+    "access": "Reserve up to 30 days ahead; up to two passes per location per year.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 188,
+    "url": "https://ppld.org/library-card",
+    "verifiedFields": [
+      "url",
+      "description",
+      "cost",
+      "eligibility",
+      "bring",
+      "access"
+    ],
+    "notes": "UCCS enrollment alone does not establish every PPLD card privilege. Residency and card type affect access.",
+    "sources": [
+      {
+        "url": "https://ppld.org/library-card",
+        "title": "188"
+      }
+    ],
+    "description": "Borrow materials and access eligible digital services, equipment lending, and local library programs.",
+    "cost": "Library card is free for eligible applicants; replacement card fee may apply.",
+    "costType": "free",
+    "eligibility": "Generally residents within PPLD boundaries; different Colorado Library Card terms apply outside the district.",
+    "bring": "Photo ID with current address, or photo ID plus proof of current address.",
+    "access": "Apply in person or online; online applicants must verify residency in person within 30 days for full benefits.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 189,
+    "url": "https://ppld.org/library-card",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "PPLD lists Mango Languages among its card benefits. Use the library’s current database links; account eligibility applies.",
+    "sources": [
+      {
+        "url": "https://ppld.org/library-card",
+        "title": "189"
+      }
+    ],
+    "description": "Language-learning access through eligible PPLD library accounts.",
+    "modes": [
+      "online"
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 190,
+    "url": "https://ppld.org/computers",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access",
+      "cost"
+    ],
+    "notes": "The source says up to three months. Current official policy says three weeks; do not assume a three-month loan.",
+    "sources": [
+      {
+        "url": "https://ppld.org/computers",
+        "title": "190"
+      }
+    ],
+    "description": "Borrow a mobile Wi-Fi hotspot through PPLD. The normal loan is three weeks (21 days).",
+    "eligibility": "Age 18+ with an eligible public library card held for at least 90 days.",
+    "access": "Reserve a device through the PPLD catalog; availability and loan terms apply.",
+    "cost": "No rental fee listed; overdue, loss, or damage charges may apply.",
+    "costType": "mixed",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 191,
+    "url": "https://ppld.org/computers",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "access",
+      "cost"
+    ],
+    "notes": "The official page states 21 days and up to two renewals only if there are no holds.",
+    "sources": [
+      {
+        "url": "https://ppld.org/computers",
+        "title": "191"
+      }
+    ],
+    "description": "Borrow a Chromebook through PPLD. The normal loan is three weeks (21 days).",
+    "eligibility": "Age 18+ with an eligible public library card held for at least 90 days.",
+    "access": "Reserve a device through the PPLD catalog; availability and loan terms apply.",
+    "cost": "No rental fee listed; overdue, loss, or damage charges may apply.",
+    "costType": "mixed",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "PPLD makerspaces",
+    "url": "https://ppld.org/makerspaces",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Confirm machine training, age rules, paperwork, and material costs before visiting.",
+    "sources": [
+      {
+        "url": "https://ppld.org/makerspaces",
+        "title": "PPLD makerspaces"
+      }
+    ],
+    "description": "Access maker tools and creative equipment, with location-specific reservations, training, and materials rules.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "PPLD recording studios",
+    "url": "https://ppld.org/studios",
+    "verifiedFields": [
+      "url",
+      "description",
+      "access"
+    ],
+    "notes": "Available equipment, training, and lending terms vary by studio.",
+    "sources": [
+      {
+        "url": "https://ppld.org/studios",
+        "title": "PPLD recording studios"
+      }
+    ],
+    "description": "Use community recording spaces and audio/video production tools at participating libraries.",
+    "access": "Studios are available by reservation; choose a location on the official page.",
+    "appointment": "required",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 193,
+    "url": "https://ppld.org/elibrary",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Platforms and limits vary by library card type and license; the full list of apps in the source was not individually confirmed.",
+    "sources": [
+      {
+        "url": "https://ppld.org/elibrary",
+        "title": "193"
+      }
+    ],
+    "description": "Explore PPLD ebooks, streaming media, online learning, and databases.",
+    "modes": [
+      "online"
+    ],
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Food to Power No Cost Grocery",
+    "url": "https://foodtopowerco.org/no-cost-grocery",
+    "verifiedFields": [
+      "url",
+      "description",
+      "location",
+      "hours",
+      "cost"
+    ],
+    "notes": "The provider says no Saturday distribution for the foreseeable future. Confirm closures and availability before traveling.",
+    "sources": [
+      {
+        "url": "https://foodtopowerco.org/no-cost-grocery",
+        "title": "Food to Power No Cost Grocery"
+      }
+    ],
+    "description": "A no-cost grocery program at Hillside Hub in Colorado Springs.",
+    "location": "1090 S Institute Street, Colorado Springs, CO 80903",
+    "mapAddress": "1090 S Institute Street, Colorado Springs, CO 80903",
+    "hours": "Tuesday noon–2 p.m. (sign-in from 9 a.m.); Thursday noon–2 p.m. (sign-in from 10 a.m.). Saturday program suspended.",
+    "cost": "No cost.",
+    "costType": "free",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "RAD Hostel",
+    "url": "https://radhostel.com/co-hostel-faqs",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility",
+      "hours",
+      "phone",
+      "email",
+      "cost"
+    ],
+    "notes": "The research’s low-cost lodging suggestion omits a major local-resident restriction. The official FAQ lists a 14-day maximum stay.",
+    "sources": [
+      {
+        "url": "https://radhostel.com/co-hostel-faqs",
+        "title": "RAD Hostel"
+      }
+    ],
+    "description": "A paid traveler hostel with booking restrictions. El Paso County residents generally cannot stay; it is not an emergency housing service.",
+    "eligibility": "Dorm guests must be 18+. El Paso County residents generally not accepted; advance exceptions may require onward-travel proof.",
+    "hours": "Reception 8–11 a.m. and 4–9 p.m.; contact ahead for arrivals outside these hours.",
+    "phone": "719-375-5842",
+    "email": "hello@radhostel.com",
+    "cost": "Paid accommodation; request current rates.",
+    "costType": "paid",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Bear Creek Nature Center",
+    "url": "https://parks.elpasoco.com/el-paso-county-nature-centers/bear-creek-nature-center/",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Use the official county page for current programs, directions, and charges. Do not confuse this Colorado site with the similarly named Georgia center.",
+    "sources": [
+      {
+        "url": "https://parks.elpasoco.com/el-paso-county-nature-centers/bear-creek-nature-center/",
+        "title": "Bear Creek Nature Center"
+      }
+    ],
+    "description": "Explore foothills ecology, trails, and nature education through El Paso County Parks.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Fountain Creek Nature Center",
+    "url": "https://parks.elpasoco.com/el-paso-county-nature-centers/fountain-creek-nature-center/",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Current hours, program fees, and registration requirements need confirmation.",
+    "sources": [
+      {
+        "url": "https://parks.elpasoco.com/el-paso-county-nature-centers/fountain-creek-nature-center/",
+        "title": "Fountain Creek Nature Center"
+      }
+    ],
+    "description": "Wetlands, trails, exhibits, and nature programming through El Paso County Parks.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "Garden of the Gods Visitor & Nature Center",
+    "url": "https://gardenofgods.com/visitor-and-nature-center/",
+    "verifiedFields": [
+      "url",
+      "description",
+      "hours"
+    ],
+    "notes": "Some tours, movies, and activities carry fees. General park access is free; verify any paid activity separately.",
+    "sources": [
+      {
+        "url": "https://gardenofgods.com/visitor-and-nature-center/",
+        "title": "Garden of the Gods Visitor & Nature Center"
+      }
+    ],
+    "description": "Park information, trail maps, exhibits, and accessibility resources at the Garden of the Gods Visitor & Nature Center.",
+    "hours": "Visitor Center 9 a.m.–5 p.m.; park 5 a.m.–10 p.m. Holiday closures apply.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": "PPLD branches & community events",
+    "url": "https://ppld.org/library-card",
+    "verifiedFields": [
+      "url",
+      "description"
+    ],
+    "notes": "Branch hours and event registration vary; follow PPLD’s location and events links.",
+    "sources": [
+      {
+        "url": "https://ppld.org/library-card",
+        "title": "PPLD branches & community events"
+      }
+    ],
+    "description": "Find local library branches, services, and community programming.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 88,
+    "url": "https://dess.uccs.edu/ehs/training",
+    "verifiedFields": [
+      "url",
+      "description",
+      "eligibility"
+    ],
+    "sources": [
+      {
+        "url": "https://dess.uccs.edu/ehs/training",
+        "title": "Official resource page"
+      }
+    ],
+    "description": "Environmental Health & Safety courses for students, employees, and relevant university affiliates, online and in person.",
+    "eligibility": "Audience and frequency depend on the course; check the official training table.",
+    "notes": "Course table includes laboratory and other safety training. Confirm the exact EpiPen course, enrollment link, and required documentation.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 135,
+    "url": "https://universitycenter.uccs.edu/lions-byte-game-room",
+    "verifiedFields": [
+      "url",
+      "description",
+      "location",
+      "hours",
+      "email"
+    ],
+    "sources": [
+      {
+        "url": "https://universitycenter.uccs.edu/lions-byte-game-room",
+        "title": "Official resource page"
+      }
+    ],
+    "description": "A campus game room with a pool table, gaming consoles, and space to relax and connect.",
+    "location": "University Center 116",
+    "hours": "Monday–Friday, 11 a.m.–7 p.m.",
+    "email": "st-uc04@uccs.edu",
+    "notes": "Current location, hours, and contact checked on the University Center game-room page; event schedules may change.",
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "match": 119,
+    "url": "https://clubmatch.uccs.edu/",
+    "verifiedFields": [
+      "url"
+    ],
+    "sources": [
+      {
+        "url": "https://clubmatch.uccs.edu/",
+        "title": "Official resource page"
+      }
+    ],
+    "description": "A student club matching tool listed in the research. The current link redirects to a university maintenance notice; use Mountain Lion Connect to browse clubs.",
+    "notes": "The direct Club Match URL redirected to the official Service Temporarily Offline notice on October 23, 2026. The indexed survey remains visible in search, but live availability is not confirmed.",
+    "additionalLinks": [
+      {
+        "url": "https://mlc.uccs.edu/",
+        "title": "Browse clubs on Mountain Lion Connect"
+      }
+    ],
+    "tags": [
+      "Temporarily unavailable"
+    ],
+    "checkedAt": "2026-10-23"
+  }
+]
