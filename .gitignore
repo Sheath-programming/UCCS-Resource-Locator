@@ -147,3 +147,14 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Python-generated files
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Original OpenAI hosting configuration
+.openai/
+
