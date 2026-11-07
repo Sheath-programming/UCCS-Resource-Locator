@@ -173,7 +173,7 @@ if(typeof document!=='undefined'){
   addEventListener('popstate',()=>{const id=readUrl();render();if(id)openResource(id);else if($('resource-dialog').open)$('resource-dialog').close();});
   decorate();readSaved();
   try{
-    const response=await fetch('/data/resources.json');if(!response.ok)throw new Error(`Directory request failed: ${response.status}`);
+    const response=await fetch('./data/resources.json');if(!response.ok)throw new Error(`Directory request failed: ${response.status}`);
     data=await response.json();catMap=Object.fromEntries(data.categories.map(c=>[c.id,c]));
     state.savedIds=new Set([...state.savedIds].filter(id=>data.resources.some(r=>r.id===id)));
     $('total-count').textContent=data.resources.length;
