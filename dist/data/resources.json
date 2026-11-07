@@ -102,9 +102,9 @@
       "url": "https://dos.uccs.edu/basic-needs/clydes-cupboard",
       "hours": "Monday, Wednesday, Friday 10 a.m.–5 p.m.; Tuesday, Thursday 11 a.m.–6 p.m. Check semester closures.",
       "cost": "Free",
-      "eligibility": "All enrolled UCCS students; non-need-based",
+      "eligibility": "All enrolled UCCS students; non-need-based pantry; up to 10 free items per week.",
       "bring": null,
-      "access": "Visit the main pantry during opening hours.",
+      "access": "It's recommended to visit the main pantry during opening hours.",
       "costType": "free",
       "appointment": "unknown",
       "tags": [],
@@ -123,8 +123,8 @@
           "url"
         ],
         "notes": [
-          "The uploaded at-a-glance sheet reports a 10-item weekly cap; the current official page does not state that cap. Ask pantry staff about current limits and stock.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The official page does not explicitly state that cap. Ask pantry staff about current limits and stock.",
+          "Only the fields named as checked have been confirmed against an official page. Other details come from student research or remain unlisted."
         ]
       },
       "sources": [
@@ -150,7 +150,7 @@
       ],
       "additionalLinks": [],
       "linkType": "resource",
-      "searchTerms": "Clyde’s Cupboard Free food and toiletries for enrolled UCCS students, without a financial-need test. food pantry hunger groceries grocery toiletries Clyde’s Cupboard: 100% donation based and free food pantry/ basic needs support regardless of student financial status. Clyde’s Cupboard  •  Kraemer Family Library  •  Excel Tutoring Centers  •  Wellness & Recreation Center  •  Student Life  • Professional Development and Career Services  Student Life Office, University Center 102 All enrolled UCCS students; non-need-based Free"
+      "searchTerms": "Clyde’s Cupboard free food and toiletries for enrolled UCCS students, without a financial-need test. food pantry hunger groceries grocery toiletries Clyde’s Cupboard: 100% donation based and free food pantry/ basic needs support regardless of student financial status. Clyde’s Cupboard  •  Kraemer Family Library  •  Excel Tutoring Centers  •  Wellness & Recreation Center  •  Student Life  • Professional Development and Career Services  Student Life Office, University Center 102 All enrolled UCCS students; non-need-based Free"
     },
     {
       "id": "clydes-closet",
@@ -159,7 +159,7 @@
       "categories": [
         "basic"
       ],
-      "description": "Free professional clothing for interviews, career fairs, and other occasions; select up to 8 items per semester.",
+      "description": "Free professional clothing for interviews, career fairs, and other occasions; select up to 8 items per semester!",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -172,7 +172,7 @@
       "cost": "Free, up to 8 items each semester",
       "eligibility": "UCCS students and alumni",
       "bring": null,
-      "access": "Drop in during office hours; no appointment necessary.",
+      "access": "Drop in during open hours; by appointment options available on the website.",
       "costType": "free",
       "appointment": "walk-in",
       "tags": [],
@@ -199,12 +199,12 @@
         {
           "document": "Extensive Student Resource List.docx",
           "paragraph": 26,
-          "text": "Clyde’s Closet: 7 free professional clothing items per semester (coats, skirts, pants, belts, shoes, purses, briefcases, etc.)"
+          "text": "Clyde’s Closet: 8 free professional clothing items per semester (coats, skirts, pants, belts, shoes, purses, briefcases, etc.)"
         },
         {
           "document": "At a Glance Student Resources.docx",
           "paragraph": 8,
-          "text": "•  Clyde’s Closet: 7 free professional clothing and items each semester."
+          "text": "•  Clyde’s Closet: 8 free professional clothing and items each semester."
         }
       ],
       "sourceIndices": [
@@ -218,7 +218,7 @@
       ],
       "additionalLinks": [],
       "linkType": "resource",
-      "searchTerms": "Clyde’s Closet Free professional clothing for interviews, career fairs, and other occasions; select up to 8 items per semester. professional clothes interview clothing Clyde’s Closet: 7 free professional clothing items per semester (coats, skirts, pants, belts, shoes, purses, briefcases, etc.) •  Clyde’s Closet: 7 free professional clothing and items each semester. Career Center, University Center 114 UCCS students and alumni Free, up to 8 items each semester"
+      "searchTerms": "Clyde’s Closet free professional clothing for interviews, career fairs, and other occasions; select up to 8 items per semester. professional clothes interview clothing Clyde’s Closet: 8 free professional clothing items per semester (coats, skirts, pants, belts, shoes, purses, briefcases, etc.) •  Clyde’s Closet: 8 free professional clothing and items each semester. Career Center, University Center 114 UCCS students and alumni Free, up to 8 items each semester"
     },
     {
       "id": "mountain-lion-meals",
@@ -227,7 +227,7 @@
       "categories": [
         "basic"
       ],
-      "description": "Request up to three free dining-hall meals per week during the fall and spring semesters.",
+      "description": "Request up to three free dining-hall meals per week during the Fall and Spring semesters.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -258,7 +258,7 @@
           "url"
         ],
         "notes": [
-          "Up to three meals each week is confirmed; availability is limited, first come first served, during fall and spring. It is not an automatic entitlement.",
+          "Up to three meals each week is confirmed; availability is limited, first come first served, during Fall and Spring. It is not an automatic entitlement.",
           "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
         ]
       },
@@ -285,7 +285,7 @@
       ],
       "additionalLinks": [],
       "linkType": "resource",
-      "searchTerms": "Mountain Lion Meals Request up to three free dining-hall meals per week during the fall and spring semesters. food hunger meals dining Mountain Lion Meals: up to 3 free meals at eligible on-campus dining halls •  Mountain Lion Meals: complimentary dining meals for eligible students up to 3 a week. Roaring Fork or The Lodge dining halls UCCS students; weekly meal supply is limited Free for approved requests"
+      "searchTerms": "Mountain Lion Meals Request up to three free dining-hall meals per week during the Fall and Spring semesters. food hunger meals dining Mountain Lion Meals: up to 3 free meals at eligible on-campus dining halls •  Mountain Lion Meals: complimentary dining meals for eligible students up to 3 a week. Roaring Fork or The Lodge dining halls UCCS students; weekly meal supply is limited Free for approved requests"
     },
     {
       "id": "basic-needs-support-single-stop",
@@ -294,7 +294,7 @@
       "categories": [
         "basic"
       ],
-      "description": "Screen for benefits and connect with campus and community basic-needs support.",
+      "description": "Screen for benefits and connect with campus and community basic-needs support. Great place to go when you may not know where else to look",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -404,7 +404,7 @@
       ],
       "additionalLinks": [],
       "linkType": "provider",
-      "searchTerms": "Emergency Financial Assistance limited emergency funds and loans, grants can range from $100 - $1000 money bills rent emergency financial help Emergency Financial Assistance: limited emergency funds and loans, grants can range from $100 - $1000   "
+      "searchTerms": "Emergency Financial Assistance with limited emergency funds and loans, grants can range anywhere from $100 - $1000 money bills rent emergency financial help Emergency Financial Assistance: limited emergency funds and loans, grants can range from $100 - $1000   "
     },
     {
       "id": "mosaic-center",
@@ -415,7 +415,7 @@
         "identity",
         "community"
       ],
-      "description": "Community spaces, multicultural programs, advising, and connections to First2Go, international services, and education abroad.",
+      "description": "LGTBQ+ community spaces, multicultural programs, advising, and connections to First2Go, international services, and education abroad.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -445,7 +445,7 @@
           "url"
         ],
         "notes": [
-          "The uploaded supply inventory, including personal-care and sexual-health items, was not independently confirmed and may vary.",
+          "The uploaded supply inventory, including personal-care and sexual-health items, was not independently confirmed and may vary depending on availability.",
           "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
         ]
       },
@@ -472,7 +472,7 @@
       ],
       "additionalLinks": [],
       "linkType": "resource",
-      "searchTerms": "MOSAIC Center Community spaces, multicultural programs, advising, and connections to First2Go, international services, and education abroad. MOSAIC Center: personal care products, sexual health items, community lounge, isolated reflection room, fidget toys, First2Go program, scholarships, events, etc. •  Wellness Center, MOSAIC Center: personal care items, welcoming lounge and community resources. University Center 110 and Copper House 9202 All UCCS students may engage with the department "
+      "searchTerms": "MOSAIC Center Community spaces, multicultural programs, queer community, advising, and connections to First2Go, international services, and education abroad. MOSAIC Center: personal care products, sexual health items, community lounge, isolated reflection room, fidget toys, First2Go program, scholarships, events, etc. •  Wellness Center, MOSAIC Center: personal care items, welcoming lounge and community resources. University Center 110 and Copper House 9202 All UCCS students may engage with the department "
     },
     {
       "id": "dean-of-students-basic-needs-portal",
@@ -539,7 +539,7 @@
       "categories": [
         "basic"
       ],
-      "description": "Connect a student experiencing challenges with coordinated university support.",
+      "description": "Can connect a reported student experiencing challenges with coordinated university support through filling out a form.",
       "affiliation": "uccs",
       "modes": [
         "campus",
@@ -553,7 +553,7 @@
       "cost": null,
       "eligibility": null,
       "bring": null,
-      "access": "Use the official CARE contact/referral routes; the Dean of Students recommends arranging an appointment.",
+      "access": "Use the official CARE contact/referral routes through the Dean of Students; the DOS recommends arranging an appointment.",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -568,8 +568,8 @@
           "url"
         ],
         "notes": [
-          "CARE is a support/referral resource; emergency situations require emergency services.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "CARE is a support/referral resource; emergency situations require emergency services and can be directed at Public Safety Dispatch at 719-255-3111.",
+          "Only the fields named as checked have been confirmed against the official CARE Team page. Other details come from the student research or remain unlisted."
         ]
       },
       "sources": [
@@ -597,7 +597,7 @@
       "categories": [
         "academic"
       ],
-      "description": "Science tutoring, study space, class materials, computer access, and study-skills support.",
+      "description": "Science tutoring, study space with 16 camera equipped-computers, Paw-prints connected printer, help sheets for key Chemistry classes, games available to check-out, phone charging descriptions, chemical and anatomical model sets, class materials, computer access, and study-skills support.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -607,7 +607,7 @@
       "email": null,
       "url": "https://sciencecenter.uccs.edu/",
       "hours": "Fall 2026: Monday–Thursday 8 a.m.–7 p.m.; Friday 8 a.m.–4 p.m.; weekends closed.",
-      "cost": "Free tutoring and coffee",
+      "cost": "Free tutoring, Donut Stress Wednesday, and coffee",
       "eligibility": null,
       "bring": null,
       "access": "Drop in and ask a tutor for help.",
@@ -677,7 +677,7 @@
       "cost": null,
       "eligibility": null,
       "bring": null,
-      "access": "Register and schedule through WCOnline linked from the official page. Current homepage describes 30- and 60-minute appointments.",
+      "access": "Register and schedule through WCOnline linked from the official page. Current homepage describes 30- and 60-minute appointments with tutors available at a wide variety of times.",
       "costType": "unknown",
       "appointment": "required",
       "tags": [],
@@ -725,7 +725,7 @@
       "categories": [
         "academic"
       ],
-      "description": "Drop-in tutoring in math and selected physics, computer science, and statistics courses; Peer-Assisted Study Sessions are also available.",
+      "description": "Drop-in tutoring in math, selected physics, most computer science, and statistics courses; Peer-Assisted Study Sessions PASS are also available for certain rigorous classes.",
       "affiliation": "uccs",
       "modes": [
         "campus",
@@ -739,7 +739,7 @@
       "cost": null,
       "eligibility": null,
       "bring": null,
-      "access": "Drop into KFL 211 or use the online tutoring options; check subject-specific tutor schedules.",
+      "access": "Drop into KFL 211, the study area near the stair case, or use the online tutoring options; check subject-specific tutor schedules.",
       "costType": "unknown",
       "appointment": "walk-in",
       "tags": [],
@@ -756,7 +756,7 @@
           "url"
         ],
         "notes": [
-          "The official location is KFL 211. Subject coverage varies by tutor schedule.",
+          "The official location is KFL 211, though tutors also meet near the KFL staircase near the circulation desk. Subject coverage varies by tutor schedule. PASS sessions may meet elsewhere.",
           "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
         ]
       },
@@ -787,7 +787,7 @@
       "categories": [
         "academic"
       ],
-      "description": "Support for academic plans, course selection, transfer credits, degree audits, and graduation progress.",
+      "description": "Essential support for academic plans, course selection, transfer credits, degree audits, and graduation progress.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -814,7 +814,7 @@
           "url"
         ],
         "notes": [
-          "Office contact/location varies by advisor; no generic campus footer phone was used as the department contact.",
+          "Office contact/location varies by advisor; no generic campus footer phone was used as the department contact. Academic advising is required for first-years each semester.",
           "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
         ]
       },
@@ -822,7 +822,7 @@
         {
           "document": "Extensive Student Resource List.docx",
           "paragraph": 36,
-          "text": "Academic Advising: Connect with your advisor to answer career, degree path, scheduling, coursework logistics/withdrawals/record questions and check-in with your progress."
+          "text": "Academic Advising: Connect with your advisor to answer career questions, understand your degree path, scheduling, coursework logistics/withdrawals/record questions and check-in with your progress."
         },
         {
           "document": "At a Glance Student Resources.docx",
@@ -916,7 +916,7 @@
       "categories": [
         "academic"
       ],
-      "description": "Academic and housing accommodation processes for students with disabilities and other qualifying conditions.",
+      "description": "Academic and housing accommodation processes through for students with disabilities and other qualifying conditions. There is also opportunity to volunteer as a notetaker",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -984,7 +984,7 @@
         "academic",
         "leadership"
       ],
-      "description": "Funding for sustainability projects that benefit the UCCS campus.",
+      "description": "Student led organization for grant funding  sustainable, economical, and socially benifical projects to the UCCS campus. Projects include research, event, resource, infrastructural developments, and more. Examples include the water bottle refill hydration stations accoss campus buildings.",
       "affiliation": "uccs",
       "modes": [
         "campus"
