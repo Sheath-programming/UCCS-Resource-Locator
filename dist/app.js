@@ -52,10 +52,43 @@ export function searchScore(resource,query){
 export function filterResources(resources,state){
   return resources.filter(r=>(state.category==='all'||r.categories.includes(state.category)) && (state.location==='all'||r.modes.includes(state.location)) && (state.cost==='all'||(state.cost==='free'?['free','limited','mixed'].includes(r.costType):state.cost==='paid'?['paid','mixed'].includes(r.costType):r.costType==='included')) && (state.appointment==='all'||r.appointment===state.appointment) && (!state.official||!!r.url) && (!state.saved||state.savedIds.has(r.id)) && searchScore(r,state.q)>0);
 }
+export function paginateResources(resources,requestedPage=1,pageSize=12){
+  const size=Number.isFinite(pageSize)&&pageSize>=1?Math.floor(pageSize):12;
+  const totalPages=Math.ceil(resources.length/size);
+  const requested=Number.isFinite(Number(requestedPage))?Math.floor(Number(requestedPage)):1;
+  const page=Math.max(1,Math.min(requested,totalPages||1));
+  const start=(page-1)*size;
+  return {page,totalPages,start,end:Math.min(start+size,resources.length),items:resources.slice(start,start+size)};
+}
+export function pageTokens(page,totalPages){
+  if(totalPages<=0)return [];
+  if(totalPages<=9)return Array.from({length:totalPages},(_,i)=>i+1);
+  const pages=new Set([1,totalPages]);
+  const start=page<=4?2:page>=totalPages-3?totalPages-6:page-2;
+  const end=page<=4?7:page>=totalPages-3?totalPages-1:page+2;
+  for(let i=start;i<=end;i++)if(i>0&&i<=totalPages)pages.add(i);
+  const sorted=[...pages].sort((a,b)=>a-b),tokens=[];
+  for(const value of sorted){if(tokens.length&&value-sorted[sorted.indexOf(value)-1]>1)tokens.push('ellipsis');tokens.push(value);}
+  return tokens;
+}
+export function resourceStatusFlags(resource){
+  const fields=resource.verification?.fields||[],flags=[];
+  if(fields.includes('hours')&&/24\s*\/\s*7/.test(resource.hours||''))flags.push({type:'always',label:'24/7 hours listed; check service details'});
+  if(resource.modes?.includes('online'))flags.push({type:'online',label:'Online option'});
+  if(fields.includes('cost')&&resource.costType==='free')flags.push({type:'free',label:'No-cost option listed; limits may apply'});
+  return flags.length?flags:[{type:'details',label:'Check resource details for availability and cost'}];
+}
+const GENERIC_VERIFICATION_NOTE='Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted.';
+export function visibleVerificationNotes(resource){
+  return (resource.verification?.notes||[]).filter(note=>note!==GENERIC_VERIFICATION_NOTE).map(note=>note
+    .replace(/^Details are from the supplied student research\.\s*/,'')
+    .replace(/^Named in the supplied community research\.\s*/,'')
+    .replace(/^Listed in the supplied printable reference\.\s*/,''));
+}
 
 if(typeof document!=='undefined'){
   const $=id=>document.getElementById(id);
-  const state={q:'',category:'all',location:'all',cost:'all',appointment:'all',official:false,saved:false,sort:'recommended',limit:12,savedIds:new Set()};
+  const state={q:'',category:'all',location:'all',cost:'all',appointment:'all',official:false,saved:false,sort:'recommended',page:1,savedIds:new Set()};
   let data={resources:[],categories:[]}, catMap={}, toastTimer, returnFocus, openResourceId=null;
   const featured=['clydes-cupboard','excel-science-center','mental-health-services','kraemer-family-library','clydes-closet','uccs-farm-greenhouse','t-rowe-price-career-and-innovation-center','mountain-metro-bus-passes','500-series-free-parking-permit','telus-health-student-support','linkedin-learning','student-life'];
   function decorate(root=document){root.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));}
@@ -72,6 +105,7 @@ if(typeof document!=='undefined'){
   function writeUrl(){
     const u=new URL(location.href);u.search='';
     for(const k of ['q','category','location','cost','appointment','sort'])if(state[k]&&state[k]!==({'q':'',category:'all',location:'all',cost:'all',appointment:'all',sort:'recommended'}[k]))u.searchParams.set(k,state[k]);
+    if(state.page>1)u.searchParams.set('page',String(state.page));
     if(state.official)u.searchParams.set('official','1');if(state.saved)u.searchParams.set('saved','1');if(openResourceId)u.searchParams.set('resource',openResourceId);
     history.replaceState(null,'',u);
   }
@@ -80,14 +114,15 @@ if(typeof document!=='undefined'){
     state.q=p.get('q')||'';
     for(const [key,options] of Object.entries({category:['all',...data.categories.map(c=>c.id)],location:['all','campus','community','online'],cost:['all','free','included','paid'],appointment:['all','walk-in','required'],sort:['recommended','az']}))state[key]=options.includes(p.get(key))?p.get(key):options[0];
     state.official=p.get('official')==='1';state.saved=p.get('saved')==='1';
+    state.page=Math.max(1,Math.floor(Number(p.get('page')))||1);
     $('resource-search').value=state.q;$('location-select').value=state.location;$('cost-select').value=state.cost;$('appointment-select').value=state.appointment;$('sort-select').value=state.sort;$('official-check').checked=state.official;
     return p.get('resource');
   }
-  function resetFilters(clearSaved=false){state.q='';state.category='all';state.location='all';state.cost='all';state.appointment='all';state.official=false;if(clearSaved)state.saved=false;$('resource-search').value='';$('location-select').value='all';$('cost-select').value='all';$('appointment-select').value='all';$('official-check').checked=false;state.limit=12;render();}
-  function setCategory(cat){state.category=cat;state.limit=12;state.saved=false;closeFilters();render();$('directory').scrollIntoView({behavior:motion()});}
+  function resetFilters(clearSaved=false){state.q='';state.category='all';state.location='all';state.cost='all';state.appointment='all';state.official=false;if(clearSaved)state.saved=false;$('resource-search').value='';$('location-select').value='all';$('cost-select').value='all';$('appointment-select').value='all';$('official-check').checked=false;state.page=1;render();}
+  function setCategory(cat){state.category=cat;state.page=1;state.saved=false;closeFilters();render();$('directory').scrollIntoView({behavior:motion()});}
   function motion(){return matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';}
   function renderCategories(){
-    $('categories').innerHTML=[{id:'all',label:'All resources',icon:'grid'},...data.categories].map(c=>{const count=c.id==='all'?data.resources.length:data.resources.filter(r=>r.categories.includes(c.id)).length;return `<button type="button" class="category-button ${state.category===c.id?'active':''}" data-category="${c.id}" aria-pressed="${state.category===c.id}">${icon(c.icon)}<span>${esc(c.label)}</span><span class="category-count">${count}</span></button>`;}).join('');
+    $('categories').innerHTML=[{id:'all',label:'All resources',icon:'grid'},...data.categories].map(c=>{const count=c.id==='all'?data.resources.length:data.resources.filter(r=>r.categories.includes(c.id)).length;return `<button type="button" class="category-button ${state.category===c.id?'active':''}" data-category="${c.id}" aria-pressed="${state.category===c.id}"><span class="category-icon" aria-hidden="true">${icon(c.icon)}</span><span>${esc(c.label)}</span><span class="category-count">${count}</span></button>`;}).join('');
   }
   function fieldCount(r){return r.verification.fields.filter(x=>x!=='url').length;}
   function costBadge(r){
@@ -100,7 +135,8 @@ if(typeof document!=='undefined'){
     const c=catMap[r.category], saved=state.savedIds.has(r.id), checked=fieldCount(r)>0, warning=r.tags.includes('Closure notice');
     const detailUrl=new URL(location.href);detailUrl.searchParams.set('resource',r.id);detailUrl.hash='';
     const website=safeUrl(r.url);
-    return `<article class="resource-result" data-url="${esc(r.url||'')}"><button type="button" class="save-button" data-save="${r.id}" aria-pressed="${saved}" aria-label="${saved?'Unsave':'Save'} ${esc(r.name)}">${icon('bookmark')}<span>${saved?'Saved':'Save'}</span></button><h3><a class="result-title" href="${esc(detailUrl.href)}" data-detail="${r.id}" aria-label="View ${esc(r.name)} details">${esc(r.name)}</a></h3>${website?`<a class="result-url" href="${esc(website)}" target="_blank" rel="noopener noreferrer" aria-label="Official website for ${esc(r.name)}">${esc(displayResourceUrl(website))}</a>`:'<p class="result-url missing-url">Official website not listed</p>'}<p class="result-description">${esc(r.description)}</p><div class="result-meta"><span class="category-tag" data-category="${c.id}">${esc(c.label)}</span><span class="meta-line">${icon('pin')}${esc(r.location||r.modes.map(m=>modeName[m]).join(' · '))}</span></div><div class="result-extras"><div class="result-badges">${costBadge(r)}${r.appointment==='walk-in'?'<span class="small-badge">Drop-in</span>':''}${r.modes.includes('online')?'<span class="small-badge">Online</span>':''}${warning?'<span class="small-badge alert">Closure notice</span>':''}<span class="source-state ${checked?'checked':''}">${icon(checked?'check-circle':'info')}${checked?'Official details checked':r.url?'Official link available':'Student research'}</span></div><button type="button" class="card-detail" data-detail="${r.id}" aria-label="More about ${esc(r.name)}">View full details <span aria-hidden="true">→</span></button></div></article>`;
+    const dots=resourceStatusFlags(r).map(flag=>`<span class="status-dot status-${flag.type}" role="img" aria-label="${esc(flag.label)}" title="${esc(flag.label)}"></span>`).join('');
+    return `<article class="resource-result" data-url="${esc(r.url||'')}"><button type="button" class="save-button" data-save="${r.id}" aria-pressed="${saved}" aria-label="${saved?'Unsave':'Save'} ${esc(r.name)}">${icon('bookmark')}<span>${saved?'Saved':'Save'}</span></button><h3><span class="result-status-dots">${dots}</span><a class="result-title" href="${esc(detailUrl.href)}" data-detail="${r.id}" aria-label="View ${esc(r.name)} details">${esc(r.name)}</a></h3>${website?`<a class="result-url" href="${esc(website)}" target="_blank" rel="noopener noreferrer" aria-label="Official website for ${esc(r.name)}">${esc(displayResourceUrl(website))}</a>`:'<p class="result-url missing-url">Official website not listed</p>'}<p class="result-description">${esc(r.description)}</p><div class="result-meta"><span class="category-tag" data-category="${c.id}">${esc(c.label)}</span><span class="meta-line">${icon('pin')}${esc(r.location||r.modes.map(m=>modeName[m]).join(' · '))}</span></div><div class="result-extras"><div class="result-badges">${costBadge(r)}${r.appointment==='walk-in'?'<span class="small-badge">Drop-in</span>':''}${r.modes.includes('online')?'<span class="small-badge">Online</span>':''}${warning?'<span class="small-badge alert">Closure notice</span>':''}<span class="source-state ${checked?'checked':''}">${icon(checked?'check-circle':'info')}${checked?'Official details checked':r.url?'Official link available':'Details need confirmation'}</span></div><button type="button" class="card-detail" data-detail="${r.id}" aria-label="More about ${esc(r.name)}">View full details <span aria-hidden="true">→</span></button></div></article>`;
   }
   function sortResources(list){return [...list].sort((a,b)=>{
     if(state.sort==='az')return a.name.localeCompare(b.name);
@@ -109,63 +145,72 @@ if(typeof document!=='undefined'){
     return (ai<0?1000:ai)-(bi<0?1000:bi);
   });}
   function render(){
+    const started=performance.now();
     const matches=sortResources(filterResources(data.resources,state));
+    const elapsed=performance.now()-started;
+    const page=paginateResources(matches,state.page);state.page=page.page;
     renderCategories();updateSavedCount();writeUrl();
-    $('directory-title').textContent=state.saved?'Saved resources':state.q?`Search results for: ${state.q}`:state.category==='all'?'Resource directory':catMap[state.category].label;
-    $('directory-subtitle').textContent=state.saved?'Saved on this device and browser. Select a title to view complete details.':state.category==='all'?'Select a resource title to view its complete details.':catMap[state.category].originalLabel;
-    $('result-count').innerHTML=`<strong>${matches.length}</strong> ${state.saved?'saved resources':'resources'}${state.q?` for “${esc(state.q)}”`:' to explore'}`;
+    const keyword=state.q|| (state.saved?'saved resources':state.category==='all'?'all resources':catMap[state.category].label);
+    $('directory-title').innerHTML=`Resource Search Results For: <strong>${esc(keyword)}</strong>`;
+    $('directory-subtitle').textContent=state.saved?'Saved on this device and browser.':state.category==='all'?'':catMap[state.category].originalLabel;
+    const timing=elapsed<1?'&lt;0.001':(elapsed/1000).toFixed(3);
+    $('result-count').innerHTML=`<strong>${matches.length}</strong> ${state.saved?'saved resources':'resources'}${state.q?` for “${esc(state.q)}”`:' to explore'} <span class="elapsed-time" title="Time spent searching and filtering this directory on your device" aria-hidden="true">(${timing} seconds)</span>`;
+    const google=new URL('https://www.google.com/search');google.searchParams.set('q',state.q.trim()||'UCCS student resources');
+    $('search-on-google').href=google.href;
+    $('google-search-label').textContent=state.q.trim()?`Search “${state.q.trim()}” on Google`:'Search UCCS student resources on Google';
     const active=[];
     if(state.q)active.push(['q',`Search: ${state.q}`]);if(state.category!=='all')active.push(['category',catMap[state.category].label]);if(state.location!=='all')active.push(['location',modeName[state.location]]);if(state.cost!=='all')active.push(['cost',$('cost-select').selectedOptions[0].text]);if(state.appointment!=='all')active.push(['appointment',$('appointment-select').selectedOptions[0].text]);if(state.official)active.push(['official','Has official link']);
     $('active-filters').innerHTML=active.map(([k,label])=>`<button class="filter-pill" type="button" data-remove="${k}" aria-label="Remove filter ${esc(label)}">${esc(label)} <span aria-hidden="true">×</span></button>`).join('')+(active.length?'<button type="button" class="clear-filters" data-clear>Clear filters</button>':'');
-    if(matches.length){$('resources').innerHTML=matches.slice(0,state.limit).map(card).join('');$('pagination').innerHTML=`<p>Showing ${Math.min(state.limit,matches.length)} of ${matches.length} resources</p>${matches.length>state.limit?'<button type="button" class="load-more" id="load-more">Show more resources <span aria-hidden="true">↓</span></button>':''}`;}
+    if(matches.length){
+      $('resources').innerHTML=page.items.map(card).join('');
+      const tokens=pageTokens(page.page,page.totalPages).map(value=>value==='ellipsis'?'<span class="page-ellipsis" aria-hidden="true">…</span>':`<button type="button" data-page="${value}" aria-label="Page ${value}" ${value===page.page?'aria-current="page"':''}>${value}</button>`).join('');
+      $('pagination').innerHTML=`<div class="page-numbers"><button type="button" data-page="${page.page-1}" aria-label="Previous page" ${page.page===1?'disabled':''}>Previous</button>${tokens}<button type="button" data-page="${page.page+1}" aria-label="Next page" ${page.page===page.totalPages?'disabled':''}>Next</button></div><p>Showing ${page.start+1}–${page.end} of ${matches.length} resources · Page ${page.page} of ${page.totalPages}</p>`;
+    }
     else{$('pagination').innerHTML='';$('resources').innerHTML=`<div class="empty-state">${icon(state.saved?'bookmark':'search')}<h3>${state.saved&&!active.length?'Keep the good finds close.':'No resources found just yet.'}</h3><p>${state.saved&&!active.length?'Tap the bookmark on any resource to build your personal list. Your saves stay in this browser.':'Try a broader search or clear a filter to see more options.'}</p><button type="button" ${state.saved&&!active.length?'data-browse':'data-clear'}>${state.saved&&!active.length?'Explore resources':'Clear filters'}</button></div>`;}
   }
   function reviewDate(r){const raw=r.verification.checkedAt;return raw?new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'}).format(new Date(raw+'T12:00:00Z')):'Not reviewed';}
-  function checkedLine(r,field){return r[field]&&r.verification.fields.includes(field)?`<p class="field-provenance">${icon('check-circle')} Checked against official source · ${reviewDate(r)}</p>`:r[field]?'<p class="field-provenance">From student research or provider follow-up needed</p>':'';}
+  function checkedLine(r,field){return r[field]&&r.verification.fields.includes(field)?`<p class="field-provenance">${icon('check-circle')} Checked against official source · ${reviewDate(r)}</p>`:r[field]?'<p class="field-provenance">Contact provider to confirm current details</p>':'';}
   function detailField(r,label,field,ico,content){return `<div class="detail-field"><div class="field-heading">${icon(ico)}${label}</div><p class="${!r[field]?'missing':''}">${content??esc(r[field]||'Not listed. Contact the provider.')}</p>${checkedLine(r,field)}</div>`;}
   function openResource(id,trigger){
     const r=data.resources.find(x=>x.id===id);if(!r){toast('That resource was not found.');return;}
-    if($('about-dialog').open)$('about-dialog').close();
     if(trigger)returnFocus=trigger;
     const v=r.verification,checked=fieldCount(r)>0,c=catMap[r.category];openResourceId=id;
-    const sourceLabel=checked?'Some details checked against official sources':r.url?'Official link found; offering needs confirmation':'From the supplied student research';
+    const sourceLabel=checked?'Some details checked against official sources':r.url?'Official link found; offering needs confirmation':'Current details need confirmation';
     const website=r.url&&safeUrl(r.url),tel=r.phone?`tel:${r.phone.replace(/[^+0-9]/g,'')}`:'',email=r.email?`mailto:${encodeURIComponent(r.email)}`:'';
     const directions=r.mapAddress?`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.mapAddress)}`:'';
-    $('detail-content').innerHTML=`<div class="dialog-body"><button type="button" class="dialog-close" data-close aria-label="Close resource details">${icon('close')}</button><p class="eyebrow">${esc(c.originalLabel)}</p><h2 id="detail-title">${esc(r.name)}</h2><div class="detail-top-badges"><span class="small-badge">${esc(r.modes.map(m=>modeName[m]).join(' · '))}</span>${costBadge(r)}${r.tags.includes('Closure notice')?'<span class="small-badge alert">Closure notice</span>':''}</div><p>${esc(r.description)}</p>${checkedLine(r,'description')}<div class="detail-actions">${website?`<a class="button button-dark" href="${esc(website)}" target="_blank" rel="noopener noreferrer">${fieldCount(r)>0?'Visit official resource':'Visit provider page'} ${icon('external')}</a>`:''}${tel?`<a class="button button-light" href="${esc(tel)}">${icon('phone')} Call</a>`:''}${email?`<a class="button button-light" href="${esc(email)}">${icon('mail')} Email</a>`:''}${directions?`<a class="button button-light" href="${esc(directions)}" target="_blank" rel="noopener noreferrer">${icon('pin')} Directions</a>`:''}${!website?'<p>No verified official resource link is listed yet. Contact the relevant campus department or provider.</p>':''}</div><div class="detail-grid">${detailField(r,'Location','location','pin')}${detailField(r,'Hours & availability','hours','clock')}${detailField(r,'Cost & fees','cost','wallet')}${detailField(r,'Eligibility','eligibility','people')}${detailField(r,'How to access','access','calendar')}${detailField(r,'What to bring','bring','bag')}${detailField(r,'Phone','phone','phone',r.phone?`<a href="${esc(tel)}">${esc(r.phone)}</a>`:null)}${detailField(r,'Email','email','mail',r.email?`<a href="${esc(email)}">${esc(r.email)}</a>`:null)}</div><div class="detail-check"><h3>${icon(checked?'check-circle':'info')}${sourceLabel}</h3>${v.checkedAt?`<p>Official source review: ${reviewDate(r)}.<br>Checked fields: ${esc(v.fields.map(x=>({url:'website link',bring:'what to bring',access:'access instructions'}[x]||x)).join(', '))}.</p>`:'<p>Current details have not been independently confirmed.</p>'}<ul>${v.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul></div>${r.officialSources.length||r.additionalLinks.length?`<h3>Official pages & useful links</h3><ul class="official-links">${[...r.officialSources,...r.additionalLinks].filter((x,i,a)=>safeUrl(x.url)&&a.findIndex(y=>y.url===x.url)===i).map(s=>`<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title||s.url)} ${icon('external')}</a></li>`).join('')}</ul>`:''}<details class="source-details"><summary>Original research & source notes (${r.sources.length})</summary>${r.sources.map(s=>`<div class="source-doc">${esc(s.document)} · ${s.page?'page '+s.page:'paragraph '+s.paragraph}</div><p class="source-quote">${esc(s.text)}</p>`).join('')}<p>Original excerpts may contain older or conflicting claims. Use the checked fields and provider’s current information first.</p></details><div class="detail-bottom"><button type="button" data-save="${r.id}" data-detail-save aria-pressed="${state.savedIds.has(r.id)}">${icon('bookmark')}${state.savedIds.has(r.id)?'Saved in this browser':'Save this resource'}</button><button type="button" data-copy="${r.id}">${icon('link')} Copy resource link</button><button type="button" data-print>${icon('print')} Print details</button></div></div>`;
+    $('detail-content').innerHTML=`<div class="dialog-body"><button type="button" class="dialog-close" data-close aria-label="Close resource details">${icon('close')}</button><p class="eyebrow">${esc(c.originalLabel)}</p><h2 id="detail-title">${esc(r.name)}</h2><div class="detail-top-badges"><span class="small-badge">${esc(r.modes.map(m=>modeName[m]).join(' · '))}</span>${costBadge(r)}${r.tags.includes('Closure notice')?'<span class="small-badge alert">Closure notice</span>':''}</div><p>${esc(r.description)}</p>${checkedLine(r,'description')}<div class="detail-actions">${website?`<a class="button button-dark" href="${esc(website)}" target="_blank" rel="noopener noreferrer">${fieldCount(r)>0?'Visit official resource':'Visit provider page'} ${icon('external')}</a>`:''}${tel?`<a class="button button-light" href="${esc(tel)}">${icon('phone')} Call</a>`:''}${email?`<a class="button button-light" href="${esc(email)}">${icon('mail')} Email</a>`:''}${directions?`<a class="button button-light" href="${esc(directions)}" target="_blank" rel="noopener noreferrer">${icon('pin')} Directions</a>`:''}${!website?'<p>No verified official resource link is listed yet. Contact the relevant campus department or provider.</p>':''}</div><div class="detail-grid">${detailField(r,'Location','location','pin')}${detailField(r,'Hours & availability','hours','clock')}${detailField(r,'Cost & fees','cost','wallet')}${detailField(r,'Eligibility','eligibility','people')}${detailField(r,'How to access','access','calendar')}${detailField(r,'What to bring','bring','bag')}${detailField(r,'Phone','phone','phone',r.phone?`<a href="${esc(tel)}">${esc(r.phone)}</a>`:null)}${detailField(r,'Email','email','mail',r.email?`<a href="${esc(email)}">${esc(r.email)}</a>`:null)}</div><div class="detail-check"><h3>${icon(checked?'check-circle':'info')}${sourceLabel}</h3>${v.checkedAt?`<p>Official source review: ${reviewDate(r)}.<br>Checked fields: ${esc(v.fields.map(x=>({url:'website link',bring:'what to bring',access:'access instructions'}[x]||x)).join(', '))}.</p>`:'<p>Current details have not been independently confirmed.</p>'}<ul>${visibleVerificationNotes(r).map(n=>`<li>${esc(n)}</li>`).join('')}</ul></div>${r.officialSources.length||r.additionalLinks.length?`<h3>Official pages & useful links</h3><ul class="official-links">${[...r.officialSources,...r.additionalLinks].filter((x,i,a)=>safeUrl(x.url)&&a.findIndex(y=>y.url===x.url)===i).map(s=>`<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title||s.url)} ${icon('external')}</a></li>`).join('')}</ul>`:''}<div class="detail-bottom"><button type="button" data-save="${r.id}" data-detail-save aria-pressed="${state.savedIds.has(r.id)}">${icon('bookmark')}${state.savedIds.has(r.id)?'Saved in this browser':'Save this resource'}</button><button type="button" data-copy="${r.id}">${icon('link')} Copy resource link</button><button type="button" data-print>${icon('print')} Print details</button></div></div>`;
     if(!$('resource-dialog').open)$('resource-dialog').showModal();
     $('resource-dialog').scrollTop=0;document.body.classList.add('dialog-open');writeUrl();
   }
-  function openAbout(trigger){if($('resource-dialog').open)$('resource-dialog').close();returnFocus=trigger;$('about-dialog').showModal();$('about-dialog').scrollTop=0;document.body.classList.add('dialog-open');}
   function closeDialog(dialog){dialog.close();}
   function openFilters(){$('filters').classList.add('open');$('filter-scrim').hidden=false;$('mobile-filter-open').setAttribute('aria-expanded','true');$('mobile-filter-close').focus();document.body.classList.add('dialog-open');}
-  function closeFilters(){const was=$('filters').classList.contains('open');$('filters').classList.remove('open');$('filter-scrim').hidden=true;$('mobile-filter-open').setAttribute('aria-expanded','false');if(!$('resource-dialog').open&&!$('about-dialog').open)document.body.classList.remove('dialog-open');if(was)$('mobile-filter-open').focus();}
+  function closeFilters(){const was=$('filters').classList.contains('open');$('filters').classList.remove('open');$('filter-scrim').hidden=true;$('mobile-filter-open').setAttribute('aria-expanded','false');if(!$('resource-dialog').open)document.body.classList.remove('dialog-open');if(was)$('mobile-filter-open').focus();}
   async function copyLink(id){const u=new URL(location.origin+location.pathname);u.searchParams.set('resource',id);try{await navigator.clipboard.writeText(u.href);toast('Resource link copied.');}catch{const area=document.createElement('textarea');area.value=u.href;document.body.append(area);area.select();const ok=document.execCommand('copy');area.remove();toast(ok?'Resource link copied.':'Copy the link from your browser address bar.');}}
   document.addEventListener('click',event=>{
     const button=event.target.closest('button,a');if(!button)return;
     if(button.dataset.category){setCategory(button.dataset.category);return;}
-    if(button.hasAttribute('data-search')){resetFilters(true);state.q=button.dataset.search;$('resource-search').value=state.q;state.limit=12;render();$('directory').scrollIntoView({behavior:motion()});return;}
+    if(button.hasAttribute('data-search')){resetFilters(true);state.q=button.dataset.search;$('resource-search').value=state.q;state.page=1;render();$('directory').scrollIntoView({behavior:motion()});return;}
     if(button.hasAttribute('data-detail')){if(button.tagName==='A'&&(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey))return;event.preventDefault();openResource(button.dataset.detail,button);return;}
     if(button.hasAttribute('data-save')){toggleSave(button.dataset.save);return;}
-    if(button.hasAttribute('data-about')){openAbout(button);return;}
     if(button.hasAttribute('data-close')){closeDialog(button.closest('dialog'));return;}
     if(button.hasAttribute('data-clear')){resetFilters();return;}
     if(button.hasAttribute('data-browse')){resetFilters(true);return;}
-    if(button.dataset.remove){const k=button.dataset.remove;state[k]=k==='q'?'':k==='official'?false:'all';if(k==='q')$('resource-search').value='';if(k==='official')$('official-check').checked=false;const sel=$(`${k}-select`);if(sel)sel.value='all';state.limit=12;render();return;}
+    if(button.dataset.remove){const k=button.dataset.remove;state[k]=k==='q'?'':k==='official'?false:'all';if(k==='q')$('resource-search').value='';if(k==='official')$('official-check').checked=false;const sel=$(`${k}-select`);if(sel)sel.value='all';state.page=1;render();return;}
     if(button.hasAttribute('data-copy')){copyLink(button.dataset.copy);return;}
     if(button.hasAttribute('data-print')){print();return;}
-    if(button.id==='load-more'){const previous=state.limit;state.limit+=12;render();document.querySelectorAll('.result-title')[previous]?.focus();return;}
+    if(button.hasAttribute('data-page')){state.page=Number(button.dataset.page);render();$('directory-title').focus({preventScroll:true});$('directory').scrollIntoView({behavior:motion()});return;}
   });
-  $('search-form').addEventListener('submit',e=>{e.preventDefault();state.q=$('resource-search').value;state.limit=12;render();$('directory').scrollIntoView({behavior:motion()});});
-  $('resource-search').addEventListener('input',()=>{state.q=$('resource-search').value;state.limit=12;render();});
-  for(const key of ['location','cost','appointment','sort'])$(`${key}-select`).addEventListener('change',e=>{state[key]=e.target.value;state.limit=12;render();});
-  $('official-check').addEventListener('change',e=>{state.official=e.target.checked;state.limit=12;render();});
+  $('search-form').addEventListener('submit',e=>{e.preventDefault();state.q=$('resource-search').value;state.page=1;render();$('directory').scrollIntoView({behavior:motion()});});
+  $('resource-search').addEventListener('input',()=>{state.q=$('resource-search').value;state.page=1;render();});
+  for(const key of ['location','cost','appointment','sort'])$(`${key}-select`).addEventListener('change',e=>{state[key]=e.target.value;state.page=1;render();});
+  $('official-check').addEventListener('change',e=>{state.official=e.target.checked;state.page=1;render();});
   $('saved-nav').addEventListener('click',()=>{resetFilters(true);state.saved=true;render();$('directory').scrollIntoView({behavior:motion()});});
   $('browse-nav').addEventListener('click',()=>resetFilters(true));
   $('starting-point').addEventListener('click',e=>openResource('dean-of-students-basic-needs-portal',e.currentTarget));
   $('mobile-filter-open').setAttribute('aria-expanded','false');$('mobile-filter-open').setAttribute('aria-controls','filters');
   $('mobile-filter-open').addEventListener('click',openFilters);$('mobile-filter-close').addEventListener('click',closeFilters);$('filter-scrim').addEventListener('click',closeFilters);
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('filters').classList.contains('open')){closeFilters();e.preventDefault();}if(e.key==='Tab'&&$('filters').classList.contains('open')){const els=[...$('filters').querySelectorAll('button,a')],first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
-  for(const id of ['resource-dialog','about-dialog']){
+  for(const id of ['resource-dialog']){
     const dialog=$(id);dialog.addEventListener('close',()=>{if(id==='resource-dialog'){openResourceId=null;writeUrl();}if(!document.querySelector('dialog[open]'))document.body.classList.remove('dialog-open');if(returnFocus?.isConnected)returnFocus.focus();});
     dialog.addEventListener('click',e=>{if(e.target===dialog){const rect=dialog.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)closeDialog(dialog);}});
   }

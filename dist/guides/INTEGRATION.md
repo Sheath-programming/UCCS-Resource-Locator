@@ -46,3 +46,13 @@ No infrastructure decision is implied by the UCCS search page's source. In the s
 - [UCCS Typography](https://brand.uccs.edu/visual-guidelines/typography) — Helvetica Neue and suitable web fallbacks including Helvetica and Arial.
 
 These references inform the prototype's presentation. The current resource information remains the October 23 dataset without a new resource review.
+
+## Search-label and external-search decisions in version 1.2
+
+The visible header `RESOURCES.search.uccs.edu` links to the existing UCCS Search website. It does not register that hostname, change the current private Site address, or establish university DNS approval. A real UCCS subdomain would require university coordination.
+
+The curated directory retains local keyword/filter search, with numbered pages and measured local search time. A separate user-clicked Google keyword link is provided. Google Programmable Search is not connected, so no Google search engine ID, API key, or attribution is required by this implementation.
+
+The footer styling follows the supplied UCCS Search reference. Link destinations were taken from UCCS's current main-site legal footer rather than copying several mismatched destinations in the search application's bundle. Accessibility support for this student prototype links to the user-specified student email, not to an institutional support service.
+
+Current palette reference: https://brand.uccs.edu/color — CU Black, CU Gold, the listed grays/white and listed link-blue variations, with restrained tints for surfaces and the support strip.

@@ -1,5 +1,43 @@
 # Change log
 
+## 1.2.0 — October 31, 2026
+
+Applied the next set of precise UCCS Search interface revisions to the existing private Site.
+
+### Interface and navigation
+
+- Reduced the university masthead, linked its logo to `https://www.uccs.edu/`, and removed About this project.
+- Changed the linked secondary-header label to `RESOURCES.search.uccs.edu`, pointing to `https://search.uccs.edu/`. The actual hosted address is unchanged; no UCCS domain was registered.
+- Changed the browser title to “UCCS Resource Locator” and black-filled/outlined the separate mountain favicon on CU Gold.
+- Removed the small prototype notice and the lower About resource information section. The exact independent student-project statement is retained at the bottom of the replacement footer.
+- Kept the introduction to one line on desktop, with normal wrapping on small screens, and added “Advance your career” to Browse using the existing career category.
+- Moved categories and the Dean of Students starting point to the right, with a right-entering category drawer on mobile. Category icons use CU Gold fills/backgrounds and white outlines; detail icons remain outlined.
+- Changed the results heading to “Resource Search Results For:” and the current keyword/category. No Web/Image tabs were added.
+- Preserved all existing filters, sorting, matching counts, full details, bookmarks, provider links, and phone/email/maps actions.
+
+### Results and details
+
+- Replaced Show more with real numbered pages, Previous/Next, a current-page marker, and page state in the URL. Twelve results per page expose all 178 records, with ten on the last unfiltered page.
+- Displayed actual client-side search/filter duration beside the count. This is local computation time, not Google timing or a network-load metric.
+- Added a separate “Search [keyword] on Google” link. Google Programmable Search is not connected and the directory continues to search its own JSON.
+- Added labeled status dots and a visible key for existing checked no-cost information, online modes, and checked 24/7-hours text. Hollow dots direct the reader to details. No ratings or live availability are invented.
+- Preserved resource-specific verification notes, including the PPLD hotspot three-week-versus-three-month caveat and the “Some details checked against official sources” heading where applicable.
+- Removed original document/source panels and the repeated generic verification sentence from the student-facing renderer. Underlying source evidence and notes remain unchanged in the database.
+- The unfinished “When clicking the x for” feedback did not define a new action; existing close/Escape behavior is retained.
+
+### Footer and palette
+
+- Replaced the previous footer with the supplied search-page arrangement: eleven university-information links, unmodified UCCS and CU system marks, centered local-guide/source downloads, and the student-project statement in the copyright position.
+- Added the Need Support accessibility strip linked to `sheath3@uccs.edu`.
+- Used UCCS's current main-site footer destinations to correct mismatched Mission, safety-report, and Title IX links found in the search-page application bundle.
+- Restricted interface colors to the official color-page palette and its listed variations: CU Black/Gold, grays/white, and link blue, with restrained tints. Provider URL text is neutral rather than green.
+
+### Project/setup files and validation
+
+Updated `dist/index.html`, `dist/app.js`, `dist/styles.css`, `dist/favicon.svg`, official asset files/provenance, `package.json` (1.2.0), README, architecture/local-use/testing/integration guides, change log, packaging, and interface checks. Added `AGENTS.md` to persist the requirement that future AI updates refresh setup/project files and the source package. The packaging script now includes that instruction file.
+
+All six resource/research data files remain byte-for-byte unchanged, including all 178 entries and 13 category definitions. The 24,192 existing search/filter/saved-set comparisons still match the original behavior. Additional checks cover numbered-page coverage, status semantics, caveat preservation, title/header/support/footer hooks, official asset bytes, and the allowed palette. Browser/device QA remains unverified because the managed preview service is unavailable.
+
 ## 1.1.0 — October 31, 2026
 
 The Student Resource Locator now follows the supplied UCCS search-page reference more closely. This is a targeted presentation and documentation update to the existing project.

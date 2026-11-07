@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
   <meta name="description" content="Find UCCS student support, campus services, and Colorado Springs community resources in one searchable directory. Independent student prototype.">
-  <title>Student Resource Locator | UCCS Student Prototype</title>
+  <title>UCCS Resource Locator</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" type="module"></script>
@@ -14,20 +14,19 @@
   <a class="skip-link" href="#directory">Skip to resource directory</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="/" aria-label="UCCS Student Resource Locator home">
-        <img src="/assets/uccs-cu-lockup-reverse.svg" alt="University of Colorado Colorado Springs" width="404" height="119">
+      <a class="brand" href="https://www.uccs.edu/" aria-label="UCCS main website">
+        <img src="/assets/uccs-search-lockup.svg" alt="University of Colorado Colorado Springs" width="404" height="119">
       </a>
       <nav aria-label="Main navigation">
         <a class="nav-link active" href="#directory" id="browse-nav">All resources</a>
         <button class="nav-link" id="saved-nav" type="button"><span data-icon="bookmark"></span><span>Saved</span><span class="saved-count" id="saved-count">0</span></button>
-        <button class="nav-link" type="button" data-about>About this project</button>
       </nav>
     </div>
   </header>
   <main>
     <section class="search-band" aria-labelledby="hero-title">
       <div class="wrap search-band-inner">
-        <h1 id="hero-title">Student Resource Locator</h1>
+        <h1 id="hero-title"><a href="https://search.uccs.edu/">RESOURCES.search.uccs.edu</a></h1>
         <form id="search-form" role="search" class="search-box">
           <label class="sr-only" for="resource-search">Search resources by name or need</label>
           <input id="resource-search" name="q" type="search" autocomplete="off" placeholder="Search by resource name or type of support">
@@ -35,20 +34,15 @@
         </form>
       </div>
     </section>
-    <div class="prototype-notice"><div class="wrap">Independent student prototype <span aria-hidden="true">&bull;</span> Not an official or endorsed UCCS service. <button type="button" data-about>Project information</button></div></div>
     <section class="directory-intro wrap" aria-label="About the resource directory">
-      <p>Find campus services and Colorado Springs community resources in one place. Search all <strong id="total-count">178</strong> listings, browse a category, or narrow the results below.</p>
-      <div class="quick-links" aria-label="Frequently used resource categories"><span>Browse:</span><button type="button" data-category="basic">Basic needs &amp; financial support</button><button type="button" data-category="academic">Academic support</button><button type="button" data-category="wellness">Health &amp; wellness</button><button type="button" data-category="community">Student life &amp; belonging</button></div>
+      <p class="intro-line">Find a campus resource: search all <strong id="total-count">178</strong> listings or use the filters below.</p>
+      <div class="quick-links" aria-label="Frequently used resource categories"><span>Browse:</span><button type="button" data-category="basic">Basic needs &amp; financial support</button><button type="button" data-category="academic">Academic support</button><button type="button" data-category="wellness">Health &amp; wellness</button><button type="button" data-category="community">Student life &amp; belonging</button><button type="button" data-category="career">Advance your career</button></div>
     </section>
     <section class="directory-section" id="directory" aria-labelledby="directory-title">
       <div class="wrap">
-        <div class="directory-heading"><div><h2 id="directory-title">Resource directory</h2><p id="directory-subtitle">Select a resource title to view its complete details.</p></div><button type="button" class="text-button" data-about><span data-icon="info"></span> A note on resource information</button></div>
+        <div class="directory-heading"><div><h2 id="directory-title" tabindex="-1">Resource Search Results For: <strong>all resources</strong></h2><p id="directory-subtitle"></p></div></div>
         <div class="directory-layout">
-          <aside class="filters" id="filters" aria-label="Filter resources">
-            <div class="filter-top"><h3>Browse by category</h3><button type="button" id="mobile-filter-close" aria-label="Close filters"><span data-icon="close"></span></button></div>
-            <div id="categories" class="category-list"></div>
-            <div class="sidebar-help"><span data-icon="compass"></span><h4>Not sure where to start?</h4><p>The Dean of Students can help connect you with support.</p><button type="button" id="starting-point">Find a starting point <span aria-hidden="true">→</span></button></div>
-          </aside>
+
           <div class="directory-results">
             <div class="result-toolbar">
               <p id="result-count" role="status" aria-live="polite">Loading resources…</p>
@@ -60,18 +54,43 @@
               <label><span data-icon="calendar"></span><span class="sr-only">Appointment filter</span><select id="appointment-select"><option value="all">Any access type</option><option value="walk-in">Drop-in options</option><option value="required">Appointment / reservation</option></select></label>
               <label class="check-filter"><input type="checkbox" id="official-check"> <span>Has official link</span></label>
             </div>
+            <div class="status-legend" aria-label="Resource status key"><span><i class="status-dot status-free" aria-hidden="true"></i>No-cost option listed</span><span><i class="status-dot status-online" aria-hidden="true"></i>Online option</span><span><i class="status-dot status-always" aria-hidden="true"></i>24/7 hours listed</span><span><i class="status-dot status-details" aria-hidden="true"></i>See details</span></div>
             <div class="active-filters" id="active-filters"></div>
             <div class="results-list" id="resources" aria-label="Resource results"></div>
-            <div class="pagination" id="pagination"></div>
+            <nav class="pagination" id="pagination" aria-label="Resource result pages"></nav>
+            <div class="google-search-link"><a id="search-on-google" href="https://www.google.com/search?q=UCCS+student+resources" target="_blank" rel="noopener noreferrer"><span data-icon="search"></span><span id="google-search-label">Search UCCS student resources on Google</span></a></div>
           </div>
+          <aside class="filters" id="filters" aria-label="Filter resources">
+            <div class="filter-top"><h3>Browse by category</h3><button type="button" id="mobile-filter-close" aria-label="Close filters"><span data-icon="close"></span></button></div>
+            <div id="categories" class="category-list"></div>
+            <div class="sidebar-help"><span data-icon="compass"></span><h4>Not sure where to start?</h4><p>The Dean of Students can help connect you with support.</p><button type="button" id="starting-point">Find a starting point <span aria-hidden="true">→</span></button></div>
+          </aside>
         </div>
       </div>
     </section>
-    <section class="resource-note wrap"><div><h2>About resource information</h2><p>Built from student research, with links to official providers. Each listing shows what was checked and what still needs confirmation. Check with the provider before you visit.</p></div><button type="button" data-about>About the directory <span aria-hidden="true">↗</span></button></section>
   </main>
-  <footer><div class="wrap footer-inner"><div><strong>Student Resource Locator</strong><p>University of Colorado Colorado Springs student project<br>Independent prototype. Not an official or endorsed university website.</p></div><div><p>Student research &bull; October 2026</p><button type="button" data-about>Sources &amp; project information</button><a href="/guides/LOCAL_GUIDE.md" download>Local setup &amp; editing guide</a><a href="/downloads/uccs-resource-hub-source.zip" download>Download editable project</a></div></div></footer>
+  <section class="support-banner" aria-label="Accessibility support"><div class="wrap"><strong><span data-icon="info"></span> Need Support?</strong> For questions about website accessibility or to report inaccessible online information or functionality, please <a href="mailto:sheath3@uccs.edu">contact our support team.</a></div></section>
+  <footer class="site-footer">
+    <div class="wrap footer-content">
+      <nav class="footer-menu" aria-label="University information">
+        <a href="https://www.uccs.edu/copyright-information" target="_blank" rel="noopener noreferrer">Copyright</a>
+        <a href="https://www.uccs.edu/privacystatement" target="_blank" rel="noopener noreferrer">Privacy</a>
+        <a href="https://www.uccs.edu/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+        <a href="https://www.uccs.edu/accessibility" target="_blank" rel="noopener noreferrer">Accessibility</a>
+        <a href="https://www.uccs.edu/mission" target="_blank" rel="noopener noreferrer">Mission</a>
+        <a href="https://asr.uccs.edu/" target="_blank" rel="noopener noreferrer">Security &amp; Fire Safety Report</a>
+        <a href="https://hr.uccs.edu/work-at-uccs" target="_blank" rel="noopener noreferrer">Careers</a>
+        <a href="https://alerts.uccs.edu/" target="_blank" rel="noopener noreferrer">Emergency Contact Info</a>
+        <a href="https://give.uccs.edu/" target="_blank" rel="noopener noreferrer">Give to UCCS</a>
+        <a href="https://vcaf.uccs.edu/compliance/resources-datatable/student-consumer-information" target="_blank" rel="noopener noreferrer">Student Consumer Info</a>
+        <a href="https://equity.uccs.edu/" target="_blank" rel="noopener noreferrer">Title IX</a>
+      </nav>
+      <div class="footer-logos"><img src="/assets/uccs-search-lockup.svg" alt="University of Colorado Colorado Springs" width="404" height="119"><img src="/assets/cu-system-lockup.svg" alt="University of Colorado — Boulder, Colorado Springs, Denver, Anschutz" width="396" height="108"></div>
+      <div class="project-downloads"><a href="/guides/LOCAL_GUIDE.md" download>Local setup &amp; editing guide</a><a href="/downloads/uccs-resource-hub-source.zip" download>Download editable project</a></div>
+      <p class="project-statement">University of Colorado Colorado Springs student project<br>Independent prototype. Not an official or endorsed university website.</p>
+    </div>
+  </footer>
   <dialog id="resource-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
-  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-body"><button type="button" class="dialog-close" data-close aria-label="Close project information"><span data-icon="close"></span></button><p class="eyebrow">ABOUT THIS STUDENT PROJECT</p><h2 id="about-title">About the Student Resource Locator</h2><p>This independent prototype brings together UCCS and Colorado Springs resources from three supplied research documents. It was developed for a Bachelor of Innovation student resource project and is not an official or endorsed UCCS service.</p><h3>How to use the directory</h3><ol><li>Search by a name or a need, or choose a category.</li><li>Refine by location, cost, or access type.</li><li>Open a resource for contact details, official links, and source notes.</li><li>Save useful resources with the bookmark button. Saves stay in this browser.</li></ol><h3>What the source labels mean</h3><p><strong>Official details checked:</strong> specific fields were cross-checked with a provider page on October 23, 2026. This is a point-in-time review, not a guarantee of current availability.</p><p><strong>Official link available:</strong> a provider, calendar, or historical page was located, while the specific offering may still need confirmation.</p><p><strong>From student research:</strong> the listing comes from the supplied documents and could not be independently verified. “Not listed” means information is missing; it does not mean no requirements apply.</p><p>Cost filters use checked cost information only. “Free options” can include a limited number of free sessions or a free component; read the full terms. No live opening-hours or inventory feed is connected.</p><h3>Research sources</h3><ul><li>Extensive Student Resource List.docx — October 2026; the primary inventory.</li><li>At a Glance Student Resources.docx — cross-reference and additional limits.</li><li>Printable UCCS Resources Reference Sheet.pdf — page 1, including additional support and funding entries.</li></ul><p>Repeated Farm references are combined into one listing. Commercial offers and named community services are separated so they can be found individually. Original document excerpts are preserved within each resource.</p><h3>Known gaps and corrections</h3><p>Most document entries do not provide hours, contacts, or documentation requirements. Event recurrence, emergency grant amounts, special giveaways, some software access, and unnamed community offerings need further review.</p><p>Corrections include eight Clyde’s Closet items per semester, paid SOLE equipment rentals, limited Metro pass availability, three-week PPLD hotspot loans, a one-time printing credit, and the official pool closure notice. Each affected resource explains its source conflict.</p><h3>Keep the directory useful</h3><p>Confirm details through the provider’s official page. Contact the provider using the listed phone or email if information appears outdated. This prototype does not submit correction reports.</p><h3>Understand and maintain the project</h3><p>The directory uses plain HTML, CSS, and JavaScript, with a separate JSON resource file. No framework, database server, or external search API is required. The October 31 interface update preserves all 178 existing records and their organization. Resource information retains its earlier review dates and was not reverified during this visual update.</p><p><a href="/guides/ARCHITECTURE.md" download>Download the technology and file guide</a> &middot; <a href="/guides/LOCAL_GUIDE.md" download>Download local setup and editing instructions</a> &middot; <a href="/guides/TESTING.md" download>Download the testing checklist</a> &middot; <a href="/guides/CHANGELOG.md" download>Download the change log</a></p><div class="about-actions"><a class="button button-dark" href="/README.md" download>Setup & maintenance guide <span aria-hidden="true">↓</span></a><a class="button button-light" href="/data/resources.json" download>Download resource data <span aria-hidden="true">↓</span></a><a class="button button-light" href="/downloads/uccs-resource-hub-source.zip" download>Download source code <span aria-hidden="true">↓</span></a></div></div></dialog>
   <div id="filter-scrim" hidden></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <noscript><p class="wrap">JavaScript is needed for search and filtering. You can <a href="/data/resources.json">download the complete resource directory</a>.</p></noscript>

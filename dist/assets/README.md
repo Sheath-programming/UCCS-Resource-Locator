@@ -15,4 +15,15 @@ References:
 - https://brand.uccs.edu/logos-and-marks
 - https://brand.uccs.edu/visual-guidelines/typography
 
-`../favicon.svg` is the existing original prototype favicon; it is retained unchanged in Phase 2. The interface uses the existing locally defined outline icons in `app.js`. No external icon library or font request was added.
+`../favicon.svg` is the separate project mountain favicon. In version 1.2 its mountains and border are filled/outlined in black and its background uses CU Gold. The official university marks themselves are not altered. Category icons use CU Gold fills/backgrounds with white outlines; the detail-view icons retain their original outline geometry. No external icon library or font request was added.
+
+## UCCS Search reference assets added in version 1.2
+
+The compact masthead and footer use these unmodified files from the actual search-page source, downloaded October 31, 2026:
+
+| Local file | Official source | SHA-256 |
+| --- | --- | --- |
+| `uccs-search-lockup.svg` | https://search.uccs.edu/images/cu_colorado_springs.svg | `54031133bcd7f605dfa63ad7187b5870933a911234212057f92b3e2ed5dd1583` |
+| `cu-system-lockup.svg` | https://search.uccs.edu/images/cu-system-logo.svg | `e4f653c0707c64f4b1c696ed176c918bd9ac0ae03f37fe16ff36cc3981988720` |
+
+The palette follows https://brand.uccs.edu/color. The separate Google link uses a local outline search icon and text, with no Google logo or Google-powered attribution because Google Programmable Search is not integrated.

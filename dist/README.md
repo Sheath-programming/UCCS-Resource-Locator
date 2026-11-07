@@ -1,8 +1,16 @@
 # UCCS Student Resource Locator
 
-An independent student prototype for finding campus and Colorado Springs community resources. Version 1.1 updates the interface to follow the supplied UCCS search-page reference while preserving all 178 existing records and all 13 categories, including their descriptions, tags, contacts, links, eligibility, and sources.
+An independent student prototype for finding campus and Colorado Springs community resources. Version 1.2 refines the interface to follow the supplied UCCS search-page reference while preserving all 178 existing records and all 13 categories, including their descriptions, tags, contacts, links, eligibility, and sources.
 
 The application uses plain HTML, CSS, JavaScript modules, and a separate JSON file. It has no frontend framework, application backend, database server, external search API, or npm runtime dependencies. The private hosted copy retains its existing access policy and remains an independent, unendorsed prototype.
+
+## Current interface
+
+The compact university masthead links to the UCCS main website. The `RESOURCES.search.uccs.edu` header links to UCCS Search; it is a display label, not a registered or hosted UCCS domain. The current hosted address and private access are unchanged.
+
+The page provides right-hand categories and the Dean of Students starting point, all existing filters, 12 results per numbered page, a measured local search/filter duration, and a separate user-clicked Google search link. Google Programmable Search is not connected to the curated directory. Status dots describe existing online, no-cost, or 24/7-hours information; they are not ratings or live availability guarantees.
+
+The footer follows the supplied reference with official university links and both official logo assets, centered project downloads, and the independent-project statement. Accessibility support links to `sheath3@uccs.edu`. Resource-specific caveats remain visible; original document provenance panels and generic verification boilerplate are hidden in the student interface while the underlying data remains intact.
 
 ## Start locally
 
@@ -47,6 +55,12 @@ The HTML/CSS/JavaScript in `dist` are original editable source in this buildless
 `dist/README.md`, `dist/guides`, and the source ZIP are generated download copies. Edit the root README and `docs` originals, then run `python3 scripts/package-source.py` to refresh them. The archive includes configuration and relevant assets, but excludes Git internals, caches, dependencies, and credentials.
 
 The ZIP does not recursively include itself. After extraction, run that packaging command if you want the local source-download button to serve another ZIP; the directory itself runs without this step.
+
+## Required update workflow
+
+`AGENTS.md` records the standing requirement that every AI website update also refreshes the relevant project/setup documentation, version, change log, live guide copies, and downloadable source ZIP. Run the checks below and `python3 scripts/package-source.py` before publication. The packaging helper copies the current guides and includes `AGENTS.md` in the portable project.
+
+For a future private GitHub repository, import this complete extracted folder, keep credentials and caches excluded, and retain the historical data baselines. No GitHub repository or UCCS domain was created by this update.
 
 ## Check the project
 

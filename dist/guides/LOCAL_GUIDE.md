@@ -59,11 +59,19 @@ Then open `http://localhost:8001`. Replace the Python command name for your syst
 
 Do not double-click `index.html` and expect JSON loading to work from a `file:` address. Serve the folder with one of these commands.
 
+## Current navigation
+
+Use the right-hand category panel on desktop or open Categories on mobile. All existing location, cost, access, official-link, and sorting controls remain. Use numbered result pages and Previous/Next instead of the earlier Show more control. The count includes actual local search/filter duration. “Advance your career” selects the existing Career & experience category.
+
+Status dots have a text key and accessible labels: CU Gold for a checked no-cost option, brand blue for an online option, dark gray for checked 24/7 hours, and a hollow dot when details should be consulted. A dot does not establish current availability, individual eligibility, or a rating. Specific service caveats remain in each detail view.
+
+The keyword Google link opens an external Google search only when clicked. It does not replace the 178-entry directory's own search. The header label links to UCCS Search; assigning that label as an actual UCCS domain would require university domain/DNS coordination.
+
 ## 4. Know which files to edit
 
 | Your goal | File |
 | --- | --- |
-| Change page structure, header text, or About text | `dist/index.html` |
+| Change page structure, header, support email, or footer text | `dist/index.html` |
 | Change colors, spacing, type size, desktop/mobile layout | `dist/styles.css` |
 | Change searching, filters, result rendering, or interactions | `dist/app.js` |
 | Review or change a resource's actual details | `dist/data/resources.json` |
@@ -180,7 +188,7 @@ node scripts/check-preservation.mjs
 
 The preservation check intentionally compares against the frozen pre-Phase-2 data. It should fail after an intentional resource-data update. Do not reset the historical baseline just to hide that difference. Instead, document the authorized change, review the data diff, update any count/claim-specific tests for the new iteration, and capture a separately named baseline when appropriate.
 
-Record your changes in `docs/CHANGELOG.md`. For simple version history, initialize Git in your extracted copy, make an initial commit, then commit each reviewed batch. Alternatively, retain dated ZIP backups and a change-log row for each reviewed resource. Never store credentials in the project.
+Record your changes in `docs/CHANGELOG.md`. Future AI updates must follow `AGENTS.md`, refresh relevant setup/project guides and the package version, run checks, and regenerate the guide downloads and source ZIP. For simple version history, initialize Git in your extracted copy, make an initial commit, then commit each reviewed batch. Alternatively, retain dated ZIP backups and a change-log row for each reviewed resource. Never store credentials in the project.
 
 To refresh the downloadable guides and project archive:
 
@@ -188,7 +196,7 @@ To refresh the downloadable guides and project archive:
 python3 scripts/package-source.py
 ```
 
-The output is `dist/downloads/uccs-resource-hub-source.zip`. This command packages files; it does not deploy the website or regenerate resource data.
+The output is `dist/downloads/uccs-resource-hub-source.zip`. The ZIP also includes `AGENTS.md` and all current configuration/assets. This command packages files; it does not deploy the website or regenerate resource data.
 
 The archive intentionally does not contain a second copy of itself. The extracted website runs immediately, but run this packaging command if you also want its local “Download editable project” button to serve a ZIP. The hosted version already includes that generated download.
 
