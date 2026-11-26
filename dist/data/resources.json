@@ -4381,18 +4381,18 @@
       "categories": [
         "wellness"
       ],
-      "description": "guided yoga sessions, meditations, sound baths, etc.",
+      "description": "Semesterly free guided yoga sessions, meditations, sound baths, etc.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://recwellness.uccs.edu/events",
-      "hours": null,
+      "hours": "Usually 1-2 hour events.",
       "cost": null,
-      "eligibility": null,
+      "eligibility": "UCCS Student status",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -4405,8 +4405,7 @@
           "url"
         ],
         "notes": [
-          "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The specific program, recurring schedule, and access terms vary each semester.",
         ]
       },
       "sources": [
@@ -4436,18 +4435,18 @@
       "categories": [
         "wellness"
       ],
-      "description": "Student cooking classes and nutrition programming through the Wellness Center dietitians.",
+      "description": "Student cooking classes and nutrition programming through the Wellness Center dietitians held usually at 1-2 times monthly.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
       "location": "Recreation Center, Mountain Lion Meet room",
       "phone": null,
-      "email": null,
+      "email": "cbailey2@uccs.edu",
       "url": "https://recwellness.uccs.edu/nutrition-services",
       "hours": null,
       "cost": null,
-      "eligibility": null,
+      "eligibility": "RSVP required",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -4461,8 +4460,7 @@
           "url"
         ],
         "notes": [
-          "Official nutrition services describes cooking classes. Specific menus, room, dates, registration, and fees need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Specific menus, dates, registration, and details vary by event.",
         ]
       },
       "sources": [
@@ -4492,18 +4490,18 @@
       "categories": [
         "wellness"
       ],
-      "description": "series for basic hand-to-hand combat positions and situational awareness education",
+      "description": "UCCS Police officer instructor guided series for basic hand-to-hand combat positions and situational awareness education.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://recwellness.uccs.edu/events",
-      "hours": null,
+      "hours": "Usually afternoon or evening classes for 1-2 hours.",
       "cost": null,
-      "eligibility": null,
+      "eligibility": "RSVP required",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -4516,8 +4514,7 @@
           "url"
         ],
         "notes": [
-          "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Registering through Mountain Lion Connect is encouraged. The specific program, recurring schedule, instructor, and access terms may vary per event.",
         ]
       },
       "sources": [
@@ -4552,13 +4549,13 @@
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Virtual or in person (usually at University Center or the Upper Lodge)",
       "phone": null,
       "email": null,
       "url": "https://recwellness.uccs.edu/events",
-      "hours": null,
+      "hours": "QPR is usually 2 hours, while a full LEAD certification is an afternoon's worth - about 5 hours",
       "cost": null,
-      "eligibility": null,
+      "eligibility": "RSVP required",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -4571,8 +4568,7 @@
           "url"
         ],
         "notes": [
-          "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "QPR is usually a virtual information session provided through the Wellness Center. The specific program, schedule, and location vary for the UCCSLead Workshops.",
         ]
       },
       "sources": [
@@ -4602,16 +4598,16 @@
       "categories": [
         "wellness"
       ],
-      "description": "discounted certification courses",
+      "description": "UCCS services from the Gallogly Recreation and Wellness Center include discounted certification courses for Basic Life Support (BLS), Cardiopulmonary resuscitation (CPR), and a two-day NOLS Wilderness First Aid course at the gym (payment requirement); the free counterpart is the 2 times a semester recurring Wilderness Skills events providing an introduction to wilderness first aid and how to hike a fourteener.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://recwellness.uccs.edu/events",
-      "hours": null,
+      "hours": "Varies by program",
       "cost": null,
       "eligibility": null,
       "bring": null,
@@ -4626,8 +4622,7 @@
           "url"
         ],
         "notes": [
-          "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Official Recreation and Wellness event pages are a starting point. The specific program, recurring schedule, free status, and access terms described may vary each semester.",
         ]
       },
       "sources": [
@@ -4657,18 +4652,18 @@
       "categories": [
         "wellness"
       ],
-      "description": "remote controlled adjustable massage chair near pool locker rooms and basketball courts",
+      "description": "An available remote controlled fully adjustable massage chair near the pool locker rooms and basketball courts.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": "Recreation Center, near pool locker rooms and basketball courts",
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://recwellness.uccs.edu/events",
-      "hours": null,
+      "hours": "Follows Gallogly Recreation and Wellness Center hours",
       "cost": null,
-      "eligibility": null,
+      "eligibility": "Available assuming no other individual is using it.",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -4681,8 +4676,7 @@
           "url"
         ],
         "notes": [
-          "Official Recreation and Wellness event/provider page is a starting point. The specific program, item, recurring schedule, free status, and access terms described in the research were not independently confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The remote control is usually left on the massage chair and is intuitive, providing free sessions from 5 to 30 minutes of various massage types and on customizable locations.",
         ]
       },
       "sources": [
@@ -4712,20 +4706,20 @@
       "categories": [
         "recreation"
       ],
-      "description": "Campus fitness facilities with strength and cardio equipment, an indoor track, courts, and group studios.",
+      "description": "Campus fitness facilities with strength and cardio equipment, an indoor track that is 1/13 of a mile, courts, and group studios. Borrowing sports and outdoor game equipment is free to students and may be used within the courts on the first floor.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://campusrec.uccs.edu/facilities/recreation-center",
-      "hours": null,
-      "cost": null,
+      "hours": "Follow the schedule listed on the Gallogly Recreation website",
+      "cost": "Access is included within student fees",
       "eligibility": null,
       "bring": null,
-      "access": null,
+      "access": "Scanning student barcode",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -4737,8 +4731,7 @@
           "url"
         ],
         "notes": [
-          "The official facility page describes a 1/13-mile track; the supplied research says 1/11 mile. The distance has been omitted from the summary. Recreation access is generally covered through eligible student fees; confirm your membership.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Recreation access is generally covered through eligible student fees, though students also need to sign a waiver upon starting each semester.",
         ]
       },
       "sources": [
@@ -4772,7 +4765,7 @@
       "categories": [
         "recreation"
       ],
-      "description": "on top of the parking garage, open for select hours, is a 1/5-mile perimeter",
+      "description": "A football field on top of the Alpine Parking Garage, open for select hours depending on the schedule and any athletic events. It is a 1/5-mile perimeter and contains turf.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -4781,11 +4774,11 @@
       "phone": null,
       "email": null,
       "url": "https://campusrec.uccs.edu/hours-schedules",
-      "hours": "Monday–Thursday 6 a.m.–10 p.m.; Friday 6 a.m.–9 p.m.; Saturday 10 a.m.–8 p.m.; Sunday noon–9 p.m. Reservations can make the field unavailable.",
+      "hours": "Check website for daily hours.",
       "cost": null,
       "eligibility": null,
       "bring": null,
-      "access": null,
+      "access": "Reservations can make the field unavailable.",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -4797,8 +4790,7 @@
           "url"
         ],
         "notes": [
-          "Current listed field hours checked. The source track distance was not confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Schedule and availability may vary by season and semesterly athletic events, practice, and games.",
         ]
       },
       "sources": [
@@ -4827,19 +4819,19 @@
       "categories": [
         "recreation"
       ],
-      "description": "Recreation Center aquatics facilities. The official page currently reports the pool closed for HVAC repairs until further notice.",
+      "description": "Recreation Center aquatics facilities contains both a pool, hot tub, and slides. An accompanying lockerroom with showers and lockers is available as well. Students are encouraged to bring their own locks.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://campusrec.uccs.edu/aquatics",
-      "hours": "Closed for HVAC repairs until further notice; check the official page for reopening.",
+      "hours": "Typically follow Gallogly Recreation center hours.",
       "cost": null,
-      "eligibility": null,
-      "bring": null,
+      "eligibility": "UCCS Student status",
+      "bring": "Personal lock for locker room (non-mandatory)",
       "access": null,
       "costType": "unknown",
       "appointment": "unknown",
@@ -4855,8 +4847,7 @@
           "url"
         ],
         "notes": [
-          "This closure supersedes the uploaded description of an available free pool. No reopening date was found.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The pool has undergone closure in 2026 due to HVAC service application and renovation. Note that non-student guests do not enter for free.",
         ]
       },
       "sources": [
@@ -4885,7 +4876,7 @@
       "categories": [
         "recreation"
       ],
-      "description": "Rent tents, camping gear, snow-sport equipment, and other outdoor supplies through SOLE.",
+      "description": "Rent tents, camping gear, snow-sport equipment, and other outdoor supplies through SOLE. Students can explore their wide catalogue and borrow certain equipment for a range of low prices.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -4898,7 +4889,7 @@
       "cost": "Rental fees vary by item and length. Example listed student/member hammock rental: $4 daily. Late, damage, and loss charges may apply.",
       "eligibility": null,
       "bring": null,
-      "access": "Collect and return rentals during SOLE hours; complete the required release form.",
+      "access": "Collect and return rentals during SOLE hours (separate from Gallogly Recreation center); complete the required release form.",
       "costType": "paid",
       "appointment": "unknown",
       "tags": [],
@@ -4912,8 +4903,7 @@
           "url"
         ],
         "notes": [
-          "The supplied research describes outdoor gear as free. The official rental catalog lists charges. General indoor sports checkout may have different rules; ask the Recreation Center.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The official rental catalog lists charges; most equipment is highly discounted. General indoor sports checkout may have different rules; ask the Recreation Center.",
         ]
       },
       "sources": [
@@ -4942,7 +4932,7 @@
       "categories": [
         "recreation"
       ],
-      "description": "can rent bike lock boxes across campus (near Alpine Village dorms)",
+      "description": "Students can rent bike lock boxes across campus whcih are in front of the Alpine Village dorms. These structures can store one's entire bike or scooter to shelter it entirely from the elemetnts and theft.",
       "affiliation": "uccs",
       "modes": [
         "campus"
@@ -4951,11 +4941,11 @@
       "phone": null,
       "email": null,
       "url": "https://campusrec.uccs.edu/sole",
-      "hours": null,
-      "cost": null,
+      "hours": "Based on chosen duration",
+      "cost": "Rates vary, usually starting at $5 per semester",
       "eligibility": null,
       "bring": null,
-      "access": null,
+      "access": "Acquiring keys after payment must be completed through the SOLE Center or UCCS Parking and Transportation Services",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -4966,8 +4956,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The University Center Information Desk can also be a site to purchase bike locker access and visit for further information.",
         ]
       },
       "sources": [
@@ -4997,20 +4986,20 @@
       "categories": [
         "recreation"
       ],
-      "description": "ladies climb nights and learn to climb free series",
+      "description": "The SOLE Center at the Gallogly Recreation and Wellness Center features a recurring ladies climb night 1-2 times a semester and a learn to climb free series.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Gallogly Recreation and Wellness Center",
       "phone": null,
       "email": null,
       "url": "https://campusrec.uccs.edu/sole/climbing-wall",
-      "hours": null,
+      "hours": "Events usually last 1-3 hours and are in the evening.",
       "cost": null,
       "eligibility": null,
       "bring": null,
-      "access": null,
+      "access": "Bring your digital student barcode and ID",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5021,8 +5010,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Specific dates, eligibility, and tiems vary per semester.",
         ]
       },
       "sources": [
