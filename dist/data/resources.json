@@ -4991,8 +4991,8 @@
       "modes": [
         "campus"
       ],
-      "location": "Gallogly Recreation and Wellness Center",
-      "phone": null,
+      "location": "SOLE Center at the Gallogly Recreation and Wellness Center",
+      "phone": "719-255-7517",
       "email": null,
       "url": "https://campusrec.uccs.edu/sole/climbing-wall",
       "hours": "Events usually last 1-3 hours and are in the evening.",
@@ -5040,20 +5040,20 @@
       "categories": [
         "recreation"
       ],
-      "description": "a variety of 1-hour classes such as yoga, boxing, and cycling. Some themed cycle classes too aligned to different musical artists",
+      "description": "Every semester, the Recreation Center hosts a variety of free 1-hour classes such as yoga, boxing, and cycling for the first week of school. Ocasionally, there will be free cycle classes too that are themed to different musical artists",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
+      "location": "SOLE Center, Recreation & Wellness Center",
+      "phone": "719-255-7517",
       "email": null,
       "url": "https://campusrec.uccs.edu/",
       "hours": null,
       "cost": null,
-      "eligibility": null,
+      "eligibility": "UCCS Student status",
       "bring": null,
-      "access": null,
+      "access": "UCCS App Barcode",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5064,8 +5064,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Specific courses, dates, and other special offers vary be semester.",
         ]
       },
       "sources": [
@@ -5095,20 +5094,20 @@
       "categories": [
         "recreation"
       ],
-      "description": "over 10 miles of nearby trail system",
+      "description": "The Trails Program focuses on recreation, wellness, education, and responsible land stewardship and covers over 10 miles of the nearby trail system. This land is open for hiking, running biking, biology field research, club activities, and sustainability projects. Trails vary in distance and difficulty.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
+      "location": "UCCS Campus and surrounding areas",
+      "phone": "719-255-7515",
       "email": null,
       "url": "https://pts.uccs.edu/uccs-maps",
-      "hours": null,
+      "hours": "24/7 unless otherwise stated by Pulpit Rock trails system or adjacent parks",
       "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
+      "eligibility": "N/A, Open to the commmunity",
+      "bring": "Appropriate gear and supplies",
+      "access": "By foot or bike",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5119,8 +5118,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "UCCS Campus Recreation is also responsible for managing the trails on UCCS grounds. Volunteer opporunities for trail assistance are available throughout the semester as well.",
         ]
       },
       "sources": [
@@ -5150,18 +5148,18 @@
       "categories": [
         "recreation"
       ],
-      "description": "recreation center has smaller scholarships to apply for, less well known",
+      "description": "The Campus Recreation Center has smaller program scholarships to apply for. The scholarships can cover 50% - 75% - 100% of various programs such as SOLE trips, educational clinics, climbing gym passes, outdoor equipment rentals, group fitness classes, first aid & CPR classes, lifeguard training, special events, body composition testing, and more.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
-      "url": "https://campusrec.uccs.edu/",
+      "location": "Gallogly Recreation and Wellness Center",
+      "phone": "719-255-7515",
+      "email": "rec@uccs.edu",
+      "url": "https://campusrec.uccs.edu/about/program-participation-scholarship",
       "hours": null,
       "cost": null,
-      "eligibility": null,
+      "eligibility": "Current UCCS student enrollment.",
       "bring": null,
       "access": null,
       "costType": "unknown",
@@ -5174,8 +5172,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Annually, 5 scholarships are available to students; each student who applies and wins a scholarship can earn up to 2 program scholarships of varying coverage rates.",
         ]
       },
       "sources": [
@@ -5205,20 +5202,20 @@
       "categories": [
         "recreation"
       ],
-      "description": "Use bike-workshop tools in the SOLE shop; staff-assisted repairs can carry fees.",
+      "description": "Students can use bike, snowboard, and ski-workshop tools in the SOLE shop; specialized staff-assisted repairs can carry fees (basic maintenance is free), though bike parts and services are offered at discounted rates.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "SOLE Center at the Gallogly Recreation and Wellness Center",
+      "phone": "719-255-7515",
+      "email": "sole@uccs.edu",
       "url": "https://campusrec.uccs.edu/sole/faqs",
-      "hours": null,
-      "cost": "In-shop tool use is free for students and Recreation Center members; extensive staff repairs cost extra.",
+      "hours": "12-9 afternoons Monday-Friday, though bike service depends on available, specialized staff",
+      "cost": null,
       "eligibility": "UCCS students and Gallogly Recreation Center members.",
       "bring": "Bring your bike and confirm workshop hours; tools cannot be taken out of the shop.",
-      "access": null,
+      "access": "Students may be asked to sign in with their digital UCCS Student barcode",
       "costType": "mixed",
       "appointment": "unknown",
       "tags": [],
@@ -5233,8 +5230,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Specific maintenance services at discounted prices include the BikeTune for both mechanical and electric bikes, various part repairs or replacements, ski & snowboards waxing, ptexing, edging/deburring, bindings, and more.",
         ]
       },
       "sources": [
@@ -5265,20 +5261,20 @@
         "recreation",
         "transportation"
       ],
-      "description": "incentivized reward program for those who bike for their commute to campus",
+      "description": "Pedal Perks is an incentivized reward program for students and staff who bike for their commute to campus. Participants will also be rewarded for attending related educational workshops, clinics, and events.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "N/A, as long as the participant is biking to and around the UCCS Campus",
+      "phone": "719-255-3089",
+      "email": "sustain@uccs.edu",
       "url": "https://pts.uccs.edu/",
-      "hours": null,
+      "hours": "Any",
       "cost": null,
-      "eligibility": null,
+      "eligibility": "Active UCCS student or staff",
       "bring": null,
-      "access": null,
+      "access": "Create an account with Dero Zap",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5289,8 +5285,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "To receive awards based on tracked activity, the Dero ZAP web application log-in is what UCCS uses to manage this commuter wellness program.",
         ]
       },
       "sources": [
@@ -5321,22 +5316,22 @@
         "recreation",
         "transportation"
       ],
-      "description": "with UCCS transportation get a sticker ID for your bike as an extra layer of safety",
+      "description": "Students or staff can register with  UCCS Parking and Transportation Services to get a sticker ID for one's bike as an extra layer of safety. This is a one-time registration that ensures your bike can be tracked and increases the chance of finding your bike in the chance of theft.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
-      "url": "https://pts.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
+      "location": "Gateway Garage, office is on the first floor",
+      "phone": "719-255-3528",
+      "email": "transportation@uccs.edu",
+      "url": "https://bike.uccs.edu/campus-resources/register-your-bike",
+      "hours": "Mo-Fri, 8 AM - 4 PM",
+      "cost": "Free",
+      "eligibility": "UCCS student or staff",
+      "bring": "UCCS Student ID, your bike itself, the make, model, year, color, serial number, and type of bike.",
       "access": null,
       "costType": "unknown",
-      "appointment": "unknown",
+      "appointment": "Walk-in",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5345,9 +5340,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
-        ]
+          "This sticker will help deter thieves, and the registration will give more information to UCCS Police to help recover your bike.",        ]
       },
       "sources": [
         {
@@ -5376,22 +5369,22 @@
       "categories": [
         "recreation"
       ],
-      "description": "guided/transit provided experiences at discounted prices such as hikes, outings, overnight trips, and more",
+      "description": "The SOLE Center and Campus Recreation Center as a whole organizes guided, transit included experiences at discounted prices such as hikes, outings, overnight trips, and more. During the first week of school, there is typically a free outing covered for students.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "Bus stop location varies by event",
+      "phone": "719-255-7515",
+      "email": "sole@uccs.edu",
       "url": "https://campusrec.uccs.edu/sole/faqs",
-      "hours": null,
-      "cost": null,
+      "hours": "Varying event lengths",
+      "cost": "Free to discounted prices",
       "eligibility": "Generally UCCS students and members; some public certifications and free clinics have different eligibility.",
-      "bring": null,
+      "bring": "Appropriate gear and supplies, student ID",
       "access": "Register at SOLE or through the Recreation Portal; sign in or create a profile.",
       "costType": "unknown",
-      "appointment": "unknown",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5402,8 +5395,7 @@
           "url"
         ],
         "notes": [
-          "Official provider or service page located. Specific rates, dates, eligibility, and the source’s special offers need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Trips and clinics are generally for UCCS students and members, though select certification courses (like NOLS Wilderness Medicine) and free clinics are open to the public.",
         ]
       },
       "sources": [
@@ -5438,14 +5430,14 @@
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "University Center 102",
+      "phone": "719-255-3470",
+      "email": "studlife@uccs.edu",
       "url": "https://studentlife.uccs.edu/",
       "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
+      "cost": "Free",
+      "eligibility": "UCCS Student or alumni status",
+      "bring": "Varies by event, have student ID + digital barcode handy",
       "access": null,
       "costType": "unknown",
       "appointment": "unknown",
@@ -5458,8 +5450,7 @@
           "url"
         ],
         "notes": [
-          "Specific lounge amenities and hours from the student research need confirmation.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Specific lounge amenities and hours vary by occasion and throughout the semester.",
         ]
       },
       "sources": [
@@ -5493,20 +5484,20 @@
       "categories": [
         "community"
       ],
-      "description": "A student club matching tool listed in the research. The current link redirects to a university maintenance notice; use Mountain Lion Connect to browse clubs.",
+      "description": "A student club matching tool available through the UCCS website and connected to all active clubs and organizations listed on Mountain Lion Connect (MLC). MLC can be used to browse clubs and events.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "N/A, online",
+      "phone": "N/A",
+      "email": "N/A",
       "url": "https://clubmatch.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
+      "hours": "N/A",
+      "cost": "Free",
+      "eligibility": "UCCS Student or Alum",
+      "bring": "N/A",
+      "access": "Wi-fi connection",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [
@@ -5519,8 +5510,7 @@
           "url"
         ],
         "notes": [
-          "The direct Club Match URL redirected to the official Service Temporarily Offline notice on October 23, 2026. The indexed survey remains visible in search, but live availability is not confirmed.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The direct Club Match URL may be accessed through its specific UCCS web page.",
         ]
       },
       "sources": [
@@ -5554,20 +5544,20 @@
       "categories": [
         "community"
       ],
-      "description": "often free give away items",
+      "description": "UCCS usually hosts general club fairs around the start of the fall and spring semesters. Groups that are tabling often give out free items.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
+      "location": "Varies by semester",
       "phone": null,
       "email": null,
       "url": "https://mlc.uccs.edu/",
       "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
+      "cost": "Free",
+      "eligibility": "UCCS Student status",
+      "bring": "N/A",
+      "access": "N/A",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5578,8 +5568,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The specific event its date, location, giveaways, or recurrence vary each semester.",
         ]
       },
       "sources": [
@@ -5609,22 +5598,22 @@
       "categories": [
         "community"
       ],
-      "description": "communities with their own activities and resources",
+      "description": "UCCS is home to numerous greek-letter organizations, and these communities each offer their own activities and resources. Initiation into a social or fraternity or sorority is a meaningful commmitment, each chapter has a focus area such as philanthropy, leadership development, intramural sports, and more.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
-      "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "location": "Varies",
+      "phone": "719-255-3532",
+      "email": "studlife@uccs.edu",
+      "url": "https://studentlife.uccs.edu/fraternity-sorority-life",
+      "hours": "N/A",
+      "cost": "N/A",
+      "eligibility": "Complete initiation procedures",
+      "bring": "N/A",
+      "access": "Contact current chapter leads",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5633,8 +5622,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Joining a chapter is intended to help students feel connected at UCCS both as a student and an alumni. The specific events, offering, community gathering, services, training, etc. varies by chapter and current chapter organizer.",
         ]
       },
       "sources": [
@@ -5664,22 +5652,22 @@
       "categories": [
         "community"
       ],
-      "description": "CRU, Campus Chai Life, Christian Challenge, Mountain Lion Catholic, The Navigators, and more",
+      "description": "Religious communities include CRU, Campus Chai Life, Christian Challenge, Mountain Lion Catholic, The Navigators, and more.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "N/A, church locations vary by group",
+      "phone": "N/A",
+      "email": "N/A",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "hours": "N/A",
+      "cost": "Free",
+      "eligibility": "UCCS Student status",
+      "bring": "N/A",
+      "access": "N/A",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5688,8 +5676,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Student religious and spiritual groups are organized externally through Mountain Lion Connect (MLC) alongside campus centers and local faith communities.",
         ]
       },
       "sources": [
@@ -5719,22 +5706,22 @@
       "categories": [
         "community"
       ],
-      "description": "discuss contemporary topics with like-minded peers",
+      "description": "Meet during weekly to monthly events for an open forum to discuss contemporary topics with like-minded peers. These groups are external to UCCS though meet on campus for student access.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "Varies",
+      "phone": "N/A",
+      "email": "N/A",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "hours": "Varies",
+      "cost": "Free",
+      "eligibility": "N/A",
+      "bring": "N/A",
+      "access": "UCCS Student status",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5743,8 +5730,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "Political and civic organizations with meeting organized externally through MLC include partisan student clubs, advocacy groups, and student representation bodies.",
         ]
       },
       "sources": [
@@ -5774,20 +5760,20 @@
       "categories": [
         "community"
       ],
-      "description": "mid Fall semester full week of various events",
+      "description": "During the mid Fall semester, an annual homecoming week is held as a fun, full week of various events. A staple is the homecoming dance.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "UCCS Campus",
+      "phone": "N/A",
+      "email": "studlife@uccs.edu",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
+      "hours": "Varies",
+      "cost": "Most UCCS Homecoming events are free, specific event perks may have associated fees",
+      "eligibility": "UCCS Student status",
+      "bring": "N/A",
+      "access": "Varies",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5798,8 +5784,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The activity and its date, location, giveaways, free status, or recurrence vary annually. Past events such as tailgates, bonfires, and regular-season home athletic games do not guarantee current availability.",
         ]
       },
       "sources": [
@@ -5829,20 +5814,20 @@
       "categories": [
         "community"
       ],
-      "description": "various events throughout the school year",
+      "description": "Student performances center around the Ent Center for the Arts, while academic and campus competitions run through the colleges and Student Life. These events include Senior and Junior recitals at the Ent Center, other music or theatre events, History on Trial, Club Trivia Night, and more.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "UCCS Campus",
+      "phone": "719-255-3470",
+      "email": "studlife@uccs.edu (competition events), tickets@uccs.edu (Ent Center performances)",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
+      "hours": "Varies",
+      "cost": "Free",
+      "eligibility": "UCCS Student status",
+      "bring": "Varies - N/A",
+      "access": "Student ID and digital barcode, free ticket reservation for Ent Center events",
       "costType": "unknown",
       "appointment": "unknown",
       "tags": [],
@@ -5853,8 +5838,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The specific activity and its date, location, giveaways, free status, or recurrence vary by semester.",
         ]
       },
       "sources": [
@@ -5884,22 +5868,22 @@
       "categories": [
         "community"
       ],
-      "description": "in front of every dormitory there are candy buckets",
+      "description": "Each Halloween night, students can trick or treat and enjoy the candy buckets in front of every dorm.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
-      "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "location": "Village at Alpine Valley, Summit Village",
+      "phone": "N/A",
+      "email": "N/A",
+      "url": "N/A",
+      "hours": "Upon dark on Halloween night",
+      "cost": "N/A",
+      "eligibility": "UCCS Student status and dorm resident",
+      "bring": "A container to carry candy",
+      "access": "N/A",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5908,8 +5892,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "UCCS may offer trick-or-treating events at other campus location and events such as the annual UCCS Athletics BOOzar. Recurrence of this event varies by year and is coordinated through Residence Life and Housing.",
         ]
       },
       "sources": [
@@ -5939,22 +5922,22 @@
       "categories": [
         "community"
       ],
-      "description": "events with free food/dinners hosted by the Language Center usually or German club for example",
+      "description": "Events with free food/dinners hosted by the Language Center. The Oktoberfest is usually hosted by the German club for example and provides a wide variety of cultural foods for students to enjoy.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "Varies",
+      "phone": "N/A",
+      "email": "N/A",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "hours": "Varies",
+      "cost": "Free",
+      "eligibility": "UCCS Student status",
+      "bring": "UCCS Student ID",
+      "access": "N/A",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -5963,8 +5946,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The specific activites, dates, location, food items, or recurrence vary by semester and current club or department leadership.",
         ]
       },
       "sources": [
@@ -5994,22 +5976,22 @@
       "categories": [
         "community"
       ],
-      "description": "free food and games",
+      "description": "An annual event usally held the week before Thanksgiving break featuring free food and games for students. The event features free food, UCCS merch giveaways, and bingo with prizes.",
       "affiliation": "uccs",
       "modes": [
         "campus"
       ],
-      "location": null,
-      "phone": null,
-      "email": null,
+      "location": "Berger Hall",
+      "phone": "719-255-3470",
+      "email": "studlife@uccs.edu",
       "url": "https://mlc.uccs.edu/",
-      "hours": null,
-      "cost": null,
-      "eligibility": null,
-      "bring": null,
-      "access": null,
-      "costType": "unknown",
-      "appointment": "unknown",
+      "hours": "6 - 9 PM",
+      "cost": "Free",
+      "eligibility": "UCCS Student status",
+      "bring": "N/A",
+      "access": "RSVP through MLC",
+      "costType": "N/A",
+      "appointment": "N/A",
       "tags": [],
       "verification": {
         "status": "partial",
@@ -6018,8 +6000,7 @@
           "url"
         ],
         "notes": [
-          "Official calendar or department starting point only. This specific activity and its date, location, giveaways, free status, or recurrence have not been confirmed. Past event descriptions do not guarantee current availability.",
-          "Only the fields named as checked have been confirmed against an official page. Other details come from the student research or remain unlisted."
+          "The specific date, games, giveaways, and food items vary every year.",
         ]
       },
       "sources": [
